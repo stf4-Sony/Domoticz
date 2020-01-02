@@ -1,1 +1,15 @@
-RAS
+
+
+Connaitre l'idx de vos icones.
+
+installer sqlite3 :
+sudo apt-get install sqlite3 libsqlite3-dev
+
+ensuite 
+sqlite3 /home/pi/domoticz/domoticz.db -cmd ".headers on" -cmd ".mode column" -cmd ".tables"
+
+Ce qui ouvre toutes les tables presentent dans BDD de domoticz.
+
+SELECT * FROM CustomImages;
+Cette commande liste toutes vos icones avec leur numero auquel il faut rajouter 100.
+Exemple : si votre icone porte l'idx 10 alors son idx et 110.
