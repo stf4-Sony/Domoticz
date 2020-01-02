@@ -33,14 +33,14 @@ return  {
             dz.log(tostring(str),level or dz.LOG_DEBUG)
         end
 		local icons =     { 
-                            [10] = 129,-- level correspondant à Nouvelle lune MoonPhases1NM
-                            [20] = 130,-- level correspondant à Premier croissant MoonPhases2WC
-                            [30] = 131,-- level correspondant à Premier quartier MoonPhases3FQ
-                            [40] = 132,-- level correspondant à Gibbeuse croissanteMoonPhases4WG
-                            [50] = 133,-- level correspondant à Pleine lune MoonPhases5FM
-                            [60] = 134,-- level correspondant à Gibbeuse décroissante MoonPhases6WG
-                            [70] = 135,-- level correspondant à Dernier quartier MoonPhases7LQ
-                            [80] = 136,-- level correspondant à Dernier croissant MoonPhases8WC
+                            [10] = 110,-- level correspondant à Nouvelle lune MoonPhases1NM
+                            [20] = 111,-- level correspondant à Premier croissant MoonPhases2WC
+                            [30] = 112,-- level correspondant à Premier quartier MoonPhases3FQ
+                            [40] = 113,-- level correspondant à Gibbeuse croissanteMoonPhases4WG
+                            [50] = 114,-- level correspondant à Pleine lune MoonPhases5FM
+                            [60] = 115,-- level correspondant à Gibbeuse décroissante MoonPhases6WG
+                            [70] = 116,-- level correspondant à Dernier quartier MoonPhases7LQ
+                            [80] = 117,-- level correspondant à Dernier croissant MoonPhases8WC
 				}
 		
         logWrite('lastLevel'.. tostring(item.lastLevel))
