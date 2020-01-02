@@ -12,20 +12,20 @@ https://easydomoticz.com/forum/viewtopic.php?f=10&t=1878
 --------------------------------------------
 
 local debugging = false                             -- true pour voir les logs dans la console log Dz ou false pour ne pas les voir
-local fete_text_idx = nil                           -- idx du capteur texte saint du jour, nil si inutilisé
-local fete_demain_text_idx = nil                    -- idx du capteur texte saint du lendemain, nil si inutilisé
-local anniversaire_text_idx = nil                   -- idx du capteur texte anniversaire du jour pour afficher les anniversaires dans un device séparé, nil si inutilisé
-local anniversaire_demain_text_idx = nil            -- idx du capteur texte anniversaire du lendemain pour afficher les anniversaires dans un device séparé, nil si inutilisé
-local jour_ferie_switch = "Jour Ferie"              -- nom du capteur switch jour férié, nil si inutilisé
-local jour_ferie_scene = "Jour Férié"               -- nom du scénario jour férié entre, nil si inutilisé
-local variable_jour = "Saint_Jour"                  -- nom de la variable jour, nil si inutilisé
-local variable_lendemain = "Saint_Lendemain"        -- nom de la variable lendemain, nil si inutilisé
-local variable_jour_ferie = "Jour_ferie"            -- nom de la variable
-local Scene_Semaine_Paire = "Semaine Paire"         -- nom du scénario semaine paire, nil si inutilisé
-local Scene_Semaine_Impaire = "Semaine Impaire"     -- nom du scénario semaine impaire, nil si inutilisé
-local Scene_Week_End = "Week-End"                   -- nom du scénario Week-End, nil si inutilisé
-local date_mariage = 1996                           -- année de votre date de mariage
-local jour_semaine_switch = "Jour de la semaine"    -- nom du capteur switch jour de la semaine, nil si inutilisé
+local fete_text_idx = 58                            -- idx du capteur texte saint du jour, nil si inutilisé
+local fete_demain_text_idx = 59                     -- idx du capteur texte saint du lendemain, nil si inutilisé
+local anniversaire_text_idx = 60                    -- idx du capteur texte anniversaire du jour pour afficher les anniversaires dans un device séparé, nil si inutilisé
+local anniversaire_demain_text_idx = 61             -- idx du capteur texte anniversaire du lendemain pour afficher les anniversaires dans un device séparé, nil si inutilisé
+local jour_ferie_switch = 62                        -- nom du capteur switch jour férié, nil si inutilisé
+local jour_ferie_scene = nil                        -- nom du scénario jour férié entre, nil si inutilisé
+local variable_jour = "Jour"                        -- nom de la variable jour, nil si inutilisé
+local variable_lendemain = "Lendemain"              -- nom de la variable lendemain, nil si inutilisé
+local variable_jour_ferie = "Jour_Ferie"            -- nom de la variable
+local Scene_Semaine_Paire = nil                     -- nom du scénario semaine paire, nil si inutilisé
+local Scene_Semaine_Impaire = nil                   -- nom du scénario semaine impaire, nil si inutilisé
+local Scene_Week_End = nil                          -- nom du scénario Week-End, nil si inutilisé
+local date_mariage = 2018                           -- année de votre date de mariage
+local jour_semaine_switch = "JourSemaine"           -- nom du capteur switch jour de la semaine, nil si inutilisé
 local ferie_vendredi_saint = false                  -- true si le vendredi saint est un jour férié (Moselle (57), Bas-Rhin (67) et Haut-Rhin (68), sinon false
 local ferie_lendemain_noel = false                  -- true si le lendemain de noel est un jour férié (Moselle (57), Bas-Rhin (67) et Haut-Rhin (68), sinon false
 --------------------------------------------
@@ -42,11 +42,11 @@ local jour_ferie = {}
 --------------------------------------------
 ---------------- Fonctions -----------------
 --------------------------------------------
-package.path = package.path..";/home/pi/domoticz/scripts/lua/fonctions/?.lua"   -- ligne à commenter en cas d'utilisation des fonctions directement dans ce script
-require('fonctions_perso')                                                      -- ligne à commenter en cas d'utilisation des fonctions directement dans ce script
+--package.path = package.path..";/home/pi/domoticz/scripts/lua/fonctions/?.lua"   -- ligne à commenter en cas d'utilisation des fonctions directement dans ce script
+--require('fonctions_perso')                                                      -- ligne à commenter en cas d'utilisation des fonctions directement dans ce script
 
 -- ci-dessous les lignes à décommenter en cas d'utilisation des fonctions directement dans ce script( supprimer --[[ et --]])
---[[function voir_les_logs (s, debugging) -- nécessite la variable local debugging
+function voir_les_logs (s, debugging) -- nécessite la variable local debugging
     if (debugging) then
         if s ~= nil then
         print (s)
@@ -83,7 +83,7 @@ function date_en_francais(str)
      end
     return (str)
 end
---]]
+
 --------------------------------------------
 ------------- Fin Fonctions ----------------
 --------------------------------------------
