@@ -117,10 +117,60 @@ else
             voir_les_logs("--- --- --- Mise à jour scénario  ".. Scene_Week_End .." => Off",debugging)
         end
 end
-anniversaire["28:05"]="l\'anniversaire&nbsp;de&nbsp;Pierre"
-anniversaire["29:05"]="l\'anniversaire&nbsp;de&nbsp;Paul"
-anniversaire["30:05"]="l\'anniversaire&nbsp;de&nbsp;Jacques"
-anniversaire["01:06"]="nos&nbsp;".. annee_mariage .."&nbsp;ans&nbsp;de&nbsp;mariage"
+-- Famille Anthony
+anniversaire["08:02"]="l\'anniversaire&nbsp;de&nbsp;Paul"
+anniversaire["27:03"]="l\'anniversaire&nbsp;de&nbsp;Maman"
+anniversaire["01:05"]="l\'anniversaire&nbsp;de&nbsp;Papa"
+anniversaire["29:04"]="l\'anniversaire&nbsp;de&nbsp;Patrick"
+anniversaire["01:08"]="l\'anniversaire&nbsp;de&nbsp;Florine"
+anniversaire["31:05"]="l\'anniversaire&nbsp;de&nbsp;Alexis"
+anniversaire["11:09"]="l\'anniversaire&nbsp;de&nbsp;Angelique"
+anniversaire["24:06"]="l\'anniversaire&nbsp;de&nbsp;Bruno"
+anniversaire["09:06"]="l\'anniversaire&nbsp;de&nbsp;Timothe"
+anniversaire["28:05"]="l\'anniversaire&nbsp;de&nbsp;Eleane"
+anniversaire["17:03"]="l\'anniversaire&nbsp;de&nbsp;Cindy"
+anniversaire["30:11"]="l\'anniversaire&nbsp;de&nbsp;MaiLanNOK"
+anniversaire["02:12"]="l\'anniversaire&nbsp;de&nbsp;Janae"
+anniversaire["30:05"]="l\'anniversaire&nbsp;de&nbsp;IdrissaNOK"
+anniversaire["20:03"]="l\'anniversaire&nbsp;de&nbsp;Parrain"
+anniversaire["11:07"]="l\'anniversaire&nbsp;de&nbsp;Nathalie"
+anniversaire["13:07"]="l\'anniversaire&nbsp;de&nbsp;Caroline"
+anniversaire["13:12"]="l\'anniversaire&nbsp;de&nbsp;Thomas"
+anniversaire["02:03"]="l\'anniversaire&nbsp;de&nbsp;Corinne"
+anniversaire["10:03"]="l\'anniversaire&nbsp;de&nbsp;Marjolaine"
+anniversaire["30:05"]="l\'anniversaire&nbsp;de&nbsp;LeaNOK"
+anniversaire["14:07"]="l\'anniversaire&nbsp;de&nbsp;Marraine"
+
+-- Maison
+anniversaire["02:10"]="l\'anniversaire&nbsp;de&nbsp;Anthony"
+anniversaire["03:10"]="l\'anniversaire&nbsp;de&nbsp;Agathe"
+anniversaire["28:06"]="l\'anniversaire&nbsp;de&nbsp;Claire"
+
+anniversaire["01:09"]="nos&nbsp;".. annee_mariage .."&nbsp;ans&nbsp;de&nbsp;mariage"
+
+-- Famille Claire
+anniversaire["07:02"]="l\'anniversaire&nbsp;de&nbsp;Christelle"
+anniversaire["02:09"]="l\'anniversaire&nbsp;de&nbsp;David"
+anniversaire["17:03"]="l\'anniversaire&nbsp;de&nbsp;Yuna"
+anniversaire["23:06"]="l\'anniversaire&nbsp;de&nbsp;Lea"
+anniversaire["23:02"]="l\'anniversaire&nbsp;de&nbsp;Christine"
+anniversaire["08:01"]="l\'anniversaire&nbsp;de&nbsp;Bernard"
+anniversaire["07:09"]="l\'anniversaire&nbsp;de&nbsp;Cindy"
+anniversaire["27:06"]="l\'anniversaire&nbsp;de&nbsp;hilippe"
+
+-- Amis
+anniversaire["23:02"]="l\'anniversaire&nbsp;de&nbsp;MagNOK"
+anniversaire["23:02"]="l\'anniversaire&nbsp;de&nbsp;SebNOK"
+anniversaire["23:02"]="l\'anniversaire&nbsp;de&nbsp;NoahNOK"
+anniversaire["23:02"]="l\'anniversaire&nbsp;de&nbsp;TessNOK"
+anniversaire["23:02"]="l\'anniversaire&nbsp;de&nbsp;NolwenNOK"
+anniversaire["23:02"]="l\'anniversaire&nbsp;de&nbsp;JeanJeanNOK"
+anniversaire["23:02"]="l\'anniversaire&nbsp;de&nbsp;LouaneNOK"
+anniversaire["23:02"]="l\'anniversaire&nbsp;de&nbsp;AlexisJeanJeanNOK"
+anniversaire["23:02"]="l\'anniversaire&nbsp;de&nbsp;SebCoyNOK"
+anniversaire["23:02"]="l\'anniversaire&nbsp;de&nbsp;PierreGuevel"
+anniversaire["23:02"]="l\'anniversaire&nbsp;de&nbsp;AnthoGaleNOK"
+
 --===========================================================
 saint_jour["01:01"]="le&nbsp;jour&nbsp;de&nbsp;l\'An"
 saint_jour["02:01"]="les&nbsp;Basile"
