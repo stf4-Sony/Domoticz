@@ -13,3 +13,5 @@ Ce qui ouvre toutes les tables presentent dans BDD de domoticz.
 SELECT * FROM CustomImages;
 Cette commande liste toutes vos icones avec leur numero auquel il faut rajouter 100.
 Exemple : si votre icone porte l'idx 10 alors son idx et 110.
+
+Pour sortir CTRL + Z
