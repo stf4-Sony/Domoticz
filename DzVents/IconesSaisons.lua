@@ -1,10 +1,10 @@
---[[ SaisonsIcons.lua
+--[[ IconesSaisons.lua
 D'apres le script selection jour de la semaine et phase de lune de papoo https://github.com/papo-o/
 icones : https://github.com/papo-o/domoticz_scripts/tree/master/Icons/Days
  Créé = 24/01/2020
  Mise à jour = 24/01/2020
 --]]
-local scriptName        = 'SaisonsIcons'
+local scriptName        = 'IconesSaisons'
 local scriptVersion     = ' 1.00'
 return  {   
         active = true,
