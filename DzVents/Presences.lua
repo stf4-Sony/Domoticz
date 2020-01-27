@@ -16,15 +16,9 @@ local fetchIntervalMins = 1 --  Délais entre interrogations
 --Tableau des périphériques à interroger
 -- ping['adresse IP']={'Interrupteur virtuel',0} 
 local ping = {}
-	ping['192.168.15.2']={'Zbox',0}
-	ping['192.168.15.38']={'Galaxy S8',0}
-	ping['192.168.15.36']={'Galaxy S7',0}
-	ping['192.168.15.1']={'miniK9',0}
-	ping['192.168.15.33']={'iPad',0}
-	ping['192.168.15.37']={'SmartTv',0}
-	ping['192.168.15.4']={'Tardis',0}
-	ping['192.168.15.14']={'Reboot',0}
-	ping['9.9.9.9']={'Internet',0} -- Test Internet
+	ping['192.168.15.30']={'Smartphone Anthony',0}
+	ping['192.168.15.31']={'Smartphone Claire',0}
+	--ping['9.9.9.9']={'Internet',0} -- Test Internet
 
 -- ----------------------------------------------------------------------------
 
