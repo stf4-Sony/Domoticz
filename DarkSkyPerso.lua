@@ -28,7 +28,7 @@ phaseLunaire_j[1] = 23 -- mettre l'idx sous cette forme ou le nom sous la forme 
 return {
 	active = true,
 	on = { timer = { 'every 30 minutes' }, -- la version gratuit de DarkSky permet 1000 appels par jour, avec un appel toutes les 30 minutes = 48 requêtes par jour.
-	httpResponses = { 'Da'rkSky_Trigger' }
+	httpResponses = { 'DarkSky_Trigger' }
 	
 	-- activation du tyoe du LOG
 	logging = { level = domoticz.LOG_DEBUG, -- laisser un seul systeme log activé et commenter les autres.
