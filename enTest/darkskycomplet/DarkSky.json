@@ -1,1 +1,1568 @@
-{"latitude":37.8267,"longitude":-122.4233,"timezone":"America/Los_Angeles","currently":{"time":1580334582,"summary":"Partly Cloudy","icon":"partly-cloudy-day","nearestStormDistance":18,"nearestStormBearing":340,"precipIntensity":0,"precipProbability":0,"temperature":57.02,"apparentTemperature":57.02,"dewPoint":48.85,"humidity":0.74,"pressure":1023,"windSpeed":5.35,"windGust":8.51,"windBearing":272,"cloudCover":0.43,"uvIndex":2,"visibility":10,"ozone":316.7},"minutely":{"summary":"Partly cloudy for the hour.","icon":"partly-cloudy-day","data":[{"time":1580334540,"precipIntensity":0,"precipProbability":0},{"time":1580334600,"precipIntensity":0,"precipProbability":0},{"time":1580334660,"precipIntensity":0,"precipProbability":0},{"time":1580334720,"precipIntensity":0,"precipProbability":0},{"time":1580334780,"precipIntensity":0,"precipProbability":0},{"time":1580334840,"precipIntensity":0,"precipProbability":0},{"time":1580334900,"precipIntensity":0,"precipProbability":0},{"time":1580334960,"precipIntensity":0,"precipProbability":0},{"time":1580335020,"precipIntensity":0,"precipProbability":0},{"time":1580335080,"precipIntensity":0,"precipProbability":0},{"time":1580335140,"precipIntensity":0,"precipProbability":0},{"time":1580335200,"precipIntensity":0,"precipProbability":0},{"time":1580335260,"precipIntensity":0,"precipProbability":0},{"time":1580335320,"precipIntensity":0,"precipProbability":0},{"time":1580335380,"precipIntensity":0,"precipProbability":0},{"time":1580335440,"precipIntensity":0,"precipProbability":0},{"time":1580335500,"precipIntensity":0,"precipProbability":0},{"time":1580335560,"precipIntensity":0,"precipProbability":0},{"time":1580335620,"precipIntensity":0,"precipProbability":0},{"time":1580335680,"precipIntensity":0,"precipProbability":0},{"time":1580335740,"precipIntensity":0,"precipProbability":0},{"time":1580335800,"precipIntensity":0,"precipProbability":0},{"time":1580335860,"precipIntensity":0,"precipProbability":0},{"time":1580335920,"precipIntensity":0,"precipProbability":0},{"time":1580335980,"precipIntensity":0,"precipProbability":0},{"time":1580336040,"precipIntensity":0,"precipProbability":0},{"time":1580336100,"precipIntensity":0,"precipProbability":0},{"time":1580336160,"precipIntensity":0,"precipProbability":0},{"time":1580336220,"precipIntensity":0,"precipProbability":0},{"time":1580336280,"precipIntensity":0,"precipProbability":0},{"time":1580336340,"precipIntensity":0,"precipProbability":0},{"time":1580336400,"precipIntensity":0,"precipProbability":0},{"time":1580336460,"precipIntensity":0,"precipProbability":0},{"time":1580336520,"precipIntensity":0,"precipProbability":0},{"time":1580336580,"precipIntensity":0,"precipProbability":0},{"time":1580336640,"precipIntensity":0,"precipProbability":0},{"time":1580336700,"precipIntensity":0,"precipProbability":0},{"time":1580336760,"precipIntensity":0,"precipProbability":0},{"time":1580336820,"precipIntensity":0,"precipProbability":0},{"time":1580336880,"precipIntensity":0,"precipProbability":0},{"time":1580336940,"precipIntensity":0,"precipProbability":0},{"time":1580337000,"precipIntensity":0,"precipProbability":0},{"time":1580337060,"precipIntensity":0,"precipProbability":0},{"time":1580337120,"precipIntensity":0,"precipProbability":0},{"time":1580337180,"precipIntensity":0,"precipProbability":0},{"time":1580337240,"precipIntensity":0,"precipProbability":0},{"time":1580337300,"precipIntensity":0,"precipProbability":0},{"time":1580337360,"precipIntensity":0,"precipProbability":0},{"time":1580337420,"precipIntensity":0,"precipProbability":0},{"time":1580337480,"precipIntensity":0,"precipProbability":0},{"time":1580337540,"precipIntensity":0,"precipProbability":0},{"time":1580337600,"precipIntensity":0,"precipProbability":0},{"time":1580337660,"precipIntensity":0,"precipProbability":0},{"time":1580337720,"precipIntensity":0,"precipProbability":0},{"time":1580337780,"precipIntensity":0,"precipProbability":0},{"time":1580337840,"precipIntensity":0,"precipProbability":0},{"time":1580337900,"precipIntensity":0,"precipProbability":0},{"time":1580337960,"precipIntensity":0,"precipProbability":0},{"time":1580338020,"precipIntensity":0,"precipProbability":0},{"time":1580338080,"precipIntensity":0,"precipProbability":0},{"time":1580338140,"precipIntensity":0,"precipProbability":0}]},"hourly":{"summary":"Partly cloudy throughout the day.","icon":"partly-cloudy-day","data":[{"time":1580331600,"summary":"Partly Cloudy","icon":"partly-cloudy-day","precipIntensity":0,"precipProbability":0,"temperature":56.31,"apparentTemperature":56.31,"dewPoint":48.16,"humidity":0.74,"pressure":1023.5,"windSpeed":4.03,"windGust":6.08,"windBearing":266,"cloudCover":0.55,"uvIndex":2,"visibility":10,"ozone":316.9},{"time":1580335200,"summary":"Partly Cloudy","icon":"partly-cloudy-day","precipIntensity":0.0003,"precipProbability":0.02,"precipType":"rain","temperature":57.12,"apparentTemperature":57.12,"dewPoint":48.99,"humidity":0.74,"pressure":1023,"windSpeed":5.6,"windGust":8.92,"windBearing":273,"cloudCover":0.43,"uvIndex":2,"visibility":10,"ozone":316.8},{"time":1580338800,"summary":"Mostly Cloudy","icon":"partly-cloudy-day","precipIntensity":0.0014,"precipProbability":0.02,"precipType":"rain","temperature":57.34,"apparentTemperature":57.34,"dewPoint":49.75,"humidity":0.76,"pressure":1022.8,"windSpeed":6.48,"windGust":9.67,"windBearing":277,"cloudCover":0.67,"uvIndex":1,"visibility":10,"ozone":317},{"time":1580342400,"summary":"Partly Cloudy","icon":"partly-cloudy-day","precipIntensity":0.0021,"precipProbability":0.02,"precipType":"rain","temperature":57.86,"apparentTemperature":57.86,"dewPoint":50.49,"humidity":0.76,"pressure":1022.6,"windSpeed":7.87,"windGust":12.15,"windBearing":289,"cloudCover":0.45,"uvIndex":0,"visibility":10,"ozone":316.8},{"time":1580346000,"summary":"Partly Cloudy","icon":"partly-cloudy-day","precipIntensity":0,"precipProbability":0,"temperature":57.34,"apparentTemperature":57.34,"dewPoint":50.55,"humidity":0.78,"pressure":1022.5,"windSpeed":8.4,"windGust":13.01,"windBearing":304,"cloudCover":0.56,"uvIndex":0,"visibility":10,"ozone":315.7},{"time":1580349600,"summary":"Mostly Cloudy","icon":"partly-cloudy-night","precipIntensity":0.0012,"precipProbability":0.02,"precipType":"rain","temperature":55.57,"apparentTemperature":55.57,"dewPoint":49.71,"humidity":0.81,"pressure":1022.6,"windSpeed":8.34,"windGust":12.17,"windBearing":284,"cloudCover":0.68,"uvIndex":0,"visibility":10,"ozone":314.1},{"time":1580353200,"summary":"Mostly Cloudy","icon":"partly-cloudy-night","precipIntensity":0,"precipProbability":0,"temperature":54.63,"apparentTemperature":54.63,"dewPoint":49.01,"humidity":0.81,"pressure":1022.7,"windSpeed":7.78,"windGust":10.79,"windBearing":293,"cloudCover":0.68,"uvIndex":0,"visibility":10,"ozone":312.8},{"time":1580356800,"summary":"Mostly Cloudy","icon":"partly-cloudy-night","precipIntensity":0,"precipProbability":0,"temperature":54.2,"apparentTemperature":54.2,"dewPoint":48.41,"humidity":0.81,"pressure":1023.3,"windSpeed":7.81,"windGust":11.27,"windBearing":294,"cloudCover":0.7,"uvIndex":0,"visibility":10,"ozone":312.2},{"time":1580360400,"summary":"Mostly Cloudy","icon":"partly-cloudy-night","precipIntensity":0,"precipProbability":0,"temperature":54.13,"apparentTemperature":54.13,"dewPoint":47.88,"humidity":0.79,"pressure":1024,"windSpeed":7.77,"windGust":11.75,"windBearing":295,"cloudCover":0.72,"uvIndex":0,"visibility":10,"ozone":311.8},{"time":1580364000,"summary":"Mostly Cloudy","icon":"partly-cloudy-night","precipIntensity":0.0006,"precipProbability":0.02,"precipType":"rain","temperature":53.92,"apparentTemperature":53.92,"dewPoint":47.61,"humidity":0.79,"pressure":1024,"windSpeed":7.73,"windGust":12.67,"windBearing":295,"cloudCover":0.73,"uvIndex":0,"visibility":10,"ozone":311.3},{"time":1580367600,"summary":"Mostly Cloudy","icon":"partly-cloudy-night","precipIntensity":0.0002,"precipProbability":0.02,"precipType":"rain","temperature":53.83,"apparentTemperature":53.83,"dewPoint":47.54,"humidity":0.79,"pressure":1024.1,"windSpeed":7.62,"windGust":13.36,"windBearing":295,"cloudCover":0.73,"uvIndex":0,"visibility":10,"ozone":310.7},{"time":1580371200,"summary":"Mostly Cloudy","icon":"partly-cloudy-night","precipIntensity":0.0015,"precipProbability":0.03,"precipType":"rain","temperature":53.81,"apparentTemperature":53.81,"dewPoint":47.78,"humidity":0.8,"pressure":1024,"windSpeed":7.18,"windGust":12.5,"windBearing":290,"cloudCover":0.72,"uvIndex":0,"visibility":10,"ozone":310},{"time":1580374800,"summary":"Partly Cloudy","icon":"partly-cloudy-night","precipIntensity":0.0007,"precipProbability":0.03,"precipType":"rain","temperature":53.93,"apparentTemperature":53.93,"dewPoint":48.06,"humidity":0.8,"pressure":1023.6,"windSpeed":6.8,"windGust":11.34,"windBearing":292,"cloudCover":0.52,"uvIndex":0,"visibility":10,"ozone":309.6},{"time":1580378400,"summary":"Partly Cloudy","icon":"partly-cloudy-night","precipIntensity":0.0004,"precipProbability":0.03,"precipType":"rain","temperature":53.78,"apparentTemperature":53.78,"dewPoint":48.22,"humidity":0.81,"pressure":1023.7,"windSpeed":6.27,"windGust":11.17,"windBearing":295,"cloudCover":0.55,"uvIndex":0,"visibility":10,"ozone":309.8},{"time":1580382000,"summary":"Mostly Cloudy","icon":"partly-cloudy-night","precipIntensity":0.0017,"precipProbability":0.04,"precipType":"rain","temperature":53.69,"apparentTemperature":53.69,"dewPoint":48.31,"humidity":0.82,"pressure":1024.3,"windSpeed":5.99,"windGust":10.31,"windBearing":291,"cloudCover":0.6,"uvIndex":0,"visibility":10,"ozone":310.3},{"time":1580385600,"summary":"Mostly Cloudy","icon":"partly-cloudy-night","precipIntensity":0,"precipProbability":0,"temperature":52.92,"apparentTemperature":52.92,"dewPoint":47.98,"humidity":0.83,"pressure":1024.7,"windSpeed":5.77,"windGust":8.82,"windBearing":292,"cloudCover":0.73,"uvIndex":0,"visibility":10,"ozone":310.5},{"time":1580389200,"summary":"Mostly Cloudy","icon":"partly-cloudy-night","precipIntensity":0,"precipProbability":0,"temperature":52.22,"apparentTemperature":52.22,"dewPoint":47.7,"humidity":0.85,"pressure":1024.2,"windSpeed":5.36,"windGust":8.57,"windBearing":300,"cloudCover":0.72,"uvIndex":0,"visibility":10,"ozone":309.9},{"time":1580392800,"summary":"Mostly Cloudy","icon":"partly-cloudy-night","precipIntensity":0,"precipProbability":0,"temperature":51.62,"apparentTemperature":51.62,"dewPoint":47.24,"humidity":0.85,"pressure":1023.9,"windSpeed":4.85,"windGust":8.04,"windBearing":345,"cloudCover":0.69,"uvIndex":0,"visibility":10,"ozone":309},{"time":1580396400,"summary":"Mostly Cloudy","icon":"partly-cloudy-night","precipIntensity":0,"precipProbability":0,"temperature":51.68,"apparentTemperature":51.68,"dewPoint":47.22,"humidity":0.85,"pressure":1023.6,"windSpeed":4.52,"windGust":7.6,"windBearing":345,"cloudCover":0.67,"uvIndex":0,"visibility":10,"ozone":308.4},{"time":1580400000,"summary":"Mostly Cloudy","icon":"partly-cloudy-day","precipIntensity":0.0002,"precipProbability":0.03,"precipType":"rain","temperature":52.26,"apparentTemperature":52.26,"dewPoint":47.55,"humidity":0.84,"pressure":1024.2,"windSpeed":4.52,"windGust":7.38,"windBearing":357,"cloudCover":0.69,"uvIndex":0,"visibility":10,"ozone":308.6},{"time":1580403600,"summary":"Mostly Cloudy","icon":"partly-cloudy-day","precipIntensity":0.0002,"precipProbability":0.02,"precipType":"rain","temperature":53.25,"apparentTemperature":53.25,"dewPoint":48.13,"humidity":0.83,"pressure":1025.3,"windSpeed":4.69,"windGust":7.3,"windBearing":345,"cloudCover":0.71,"uvIndex":1,"visibility":10,"ozone":309.1},{"time":1580407200,"summary":"Mostly Cloudy","icon":"partly-cloudy-day","precipIntensity":0,"precipProbability":0,"temperature":54.31,"apparentTemperature":54.31,"dewPoint":48.87,"humidity":0.82,"pressure":1026.2,"windSpeed":4.84,"windGust":7.16,"windBearing":332,"cloudCover":0.73,"uvIndex":1,"visibility":10,"ozone":309.5},{"time":1580410800,"summary":"Mostly Cloudy","icon":"partly-cloudy-day","precipIntensity":0,"precipProbability":0,"temperature":55.92,"apparentTemperature":55.92,"dewPoint":50.02,"humidity":0.81,"pressure":1026.1,"windSpeed":4.81,"windGust":6.82,"windBearing":332,"cloudCover":0.69,"uvIndex":2,"visibility":10,"ozone":309.4},{"time":1580414400,"summary":"Mostly Cloudy","icon":"partly-cloudy-day","precipIntensity":0,"precipProbability":0,"temperature":57.74,"apparentTemperature":57.74,"dewPoint":51.12,"humidity":0.79,"pressure":1025.6,"windSpeed":4.75,"windGust":6.43,"windBearing":314,"cloudCover":0.64,"uvIndex":3,"visibility":10,"ozone":309.1},{"time":1580418000,"summary":"Partly Cloudy","icon":"partly-cloudy-day","precipIntensity":0,"precipProbability":0,"temperature":59.59,"apparentTemperature":59.59,"dewPoint":52.16,"humidity":0.76,"pressure":1025.1,"windSpeed":4.85,"windGust":6.32,"windBearing":303,"cloudCover":0.58,"uvIndex":3,"visibility":10,"ozone":309.2},{"time":1580421600,"summary":"Partly Cloudy","icon":"partly-cloudy-day","precipIntensity":0,"precipProbability":0,"temperature":60.84,"apparentTemperature":60.84,"dewPoint":53,"humidity":0.75,"pressure":1024.8,"windSpeed":5.36,"windGust":6.82,"windBearing":286,"cloudCover":0.51,"uvIndex":2,"visibility":10,"ozone":310.3},{"time":1580425200,"summary":"Partly Cloudy","icon":"partly-cloudy-day","precipIntensity":0,"precipProbability":0,"temperature":61.58,"apparentTemperature":61.58,"dewPoint":53.77,"humidity":0.76,"pressure":1024.6,"windSpeed":6.03,"windGust":7.61,"windBearing":273,"cloudCover":0.42,"uvIndex":1,"visibility":10,"ozone":311.7},{"time":1580428800,"summary":"Partly Cloudy","icon":"partly-cloudy-day","precipIntensity":0,"precipProbability":0,"temperature":61.22,"apparentTemperature":61.22,"dewPoint":54.12,"humidity":0.77,"pressure":1024.1,"windSpeed":6.4,"windGust":7.93,"windBearing":280,"cloudCover":0.35,"uvIndex":0,"visibility":10,"ozone":312.1},{"time":1580432400,"summary":"Clear","icon":"clear-day","precipIntensity":0,"precipProbability":0,"temperature":59.85,"apparentTemperature":59.85,"dewPoint":54.03,"humidity":0.81,"pressure":1023.9,"windSpeed":6.21,"windGust":7.4,"windBearing":281,"cloudCover":0.31,"uvIndex":0,"visibility":10,"ozone":311},{"time":1580436000,"summary":"Clear","icon":"clear-night","precipIntensity":0,"precipProbability":0,"temperature":57.62,"apparentTemperature":57.62,"dewPoint":53.12,"humidity":0.85,"pressure":1024.1,"windSpeed":5.73,"windGust":6.41,"windBearing":288,"cloudCover":0.28,"uvIndex":0,"visibility":10,"ozone":308.9},{"time":1580439600,"summary":"Clear","icon":"clear-night","precipIntensity":0,"precipProbability":0,"temperature":56.26,"apparentTemperature":56.26,"dewPoint":52.85,"humidity":0.88,"pressure":1024.1,"windSpeed":5.27,"windGust":5.63,"windBearing":282,"cloudCover":0.27,"uvIndex":0,"visibility":10,"ozone":307},{"time":1580443200,"summary":"Clear","icon":"clear-night","precipIntensity":0,"precipProbability":0,"temperature":55.65,"apparentTemperature":55.65,"dewPoint":52.35,"humidity":0.89,"pressure":1024.4,"windSpeed":4.92,"windGust":5.08,"windBearing":283,"cloudCover":0.31,"uvIndex":0,"visibility":10,"ozone":305.6},{"time":1580446800,"summary":"Partly Cloudy","icon":"partly-cloudy-night","precipIntensity":0,"precipProbability":0,"temperature":55.57,"apparentTemperature":55.57,"dewPoint":51.92,"humidity":0.88,"pressure":1025.1,"windSpeed":4.62,"windGust":4.67,"windBearing":302,"cloudCover":0.36,"uvIndex":0,"visibility":10,"ozone":304.3},{"time":1580450400,"summary":"Partly Cloudy","icon":"partly-cloudy-night","precipIntensity":0,"precipProbability":0,"temperature":55.41,"apparentTemperature":55.41,"dewPoint":51.38,"humidity":0.86,"pressure":1025.6,"windSpeed":4.33,"windGust":4.37,"windBearing":295,"cloudCover":0.43,"uvIndex":0,"visibility":10,"ozone":303.5},{"time":1580454000,"summary":"Partly Cloudy","icon":"partly-cloudy-night","precipIntensity":0.0002,"precipProbability":0.01,"precipType":"rain","temperature":55.13,"apparentTemperature":55.13,"dewPoint":50.83,"humidity":0.85,"pressure":1025.9,"windSpeed":4.06,"windGust":4.22,"windBearing":303,"cloudCover":0.49,"uvIndex":0,"visibility":10,"ozone":303.6},{"time":1580457600,"summary":"Partly Cloudy","icon":"partly-cloudy-night","precipIntensity":0.0004,"precipProbability":0.01,"precipType":"rain","temperature":54.84,"apparentTemperature":54.84,"dewPoint":50.42,"humidity":0.85,"pressure":1026,"windSpeed":3.8,"windGust":4.18,"windBearing":320,"cloudCover":0.57,"uvIndex":0,"visibility":10,"ozone":304.2},{"time":1580461200,"summary":"Mostly Cloudy","icon":"partly-cloudy-night","precipIntensity":0.0006,"precipProbability":0.02,"precipType":"rain","temperature":54.62,"apparentTemperature":54.62,"dewPoint":50.09,"humidity":0.85,"pressure":1026.2,"windSpeed":3.64,"windGust":4.09,"windBearing":21,"cloudCover":0.63,"uvIndex":0,"visibility":10,"ozone":304.7},{"time":1580464800,"summary":"Mostly Cloudy","icon":"partly-cloudy-night","precipIntensity":0.0007,"precipProbability":0.02,"precipType":"rain","temperature":54.32,"apparentTemperature":54.32,"dewPoint":49.68,"humidity":0.84,"pressure":1026,"windSpeed":3.66,"windGust":3.88,"windBearing":57,"cloudCover":0.74,"uvIndex":0,"visibility":10,"ozone":304.8},{"time":1580468400,"summary":"Mostly Cloudy","icon":"partly-cloudy-night","precipIntensity":0.0008,"precipProbability":0.02,"precipType":"rain","temperature":53.9,"apparentTemperature":53.9,"dewPoint":49.26,"humidity":0.84,"pressure":1025.9,"windSpeed":3.77,"windGust":3.77,"windBearing":107,"cloudCover":0.86,"uvIndex":0,"visibility":10,"ozone":304.8},{"time":1580472000,"summary":"Overcast","icon":"cloudy","precipIntensity":0.001,"precipProbability":0.02,"precipType":"rain","temperature":53.47,"apparentTemperature":53.47,"dewPoint":48.83,"humidity":0.84,"pressure":1025.8,"windSpeed":3.79,"windGust":3.79,"windBearing":101,"cloudCover":0.93,"uvIndex":0,"visibility":10,"ozone":304.8},{"time":1580475600,"summary":"Overcast","icon":"cloudy","precipIntensity":0.0009,"precipProbability":0.02,"precipType":"rain","temperature":52.87,"apparentTemperature":52.87,"dewPoint":48.31,"humidity":0.84,"pressure":1025.9,"windSpeed":3.71,"windGust":3.73,"windBearing":79,"cloudCover":0.88,"uvIndex":0,"visibility":10,"ozone":304.5},{"time":1580479200,"summary":"Mostly Cloudy","icon":"partly-cloudy-night","precipIntensity":0.0008,"precipProbability":0.02,"precipType":"rain","temperature":52.38,"apparentTemperature":52.38,"dewPoint":47.78,"humidity":0.84,"pressure":1026.1,"windSpeed":3.54,"windGust":3.63,"windBearing":69,"cloudCover":0.78,"uvIndex":0,"visibility":10,"ozone":304.2},{"time":1580482800,"summary":"Mostly Cloudy","icon":"partly-cloudy-night","precipIntensity":0.0007,"precipProbability":0.02,"precipType":"rain","temperature":52.12,"apparentTemperature":52.12,"dewPoint":47.57,"humidity":0.84,"pressure":1026.4,"windSpeed":3.46,"windGust":3.9,"windBearing":54,"cloudCover":0.72,"uvIndex":0,"visibility":10,"ozone":304.3},{"time":1580486400,"summary":"Mostly Cloudy","icon":"partly-cloudy-day","precipIntensity":0.0005,"precipProbability":0.01,"precipType":"rain","temperature":52.11,"apparentTemperature":52.11,"dewPoint":47.73,"humidity":0.85,"pressure":1026.8,"windSpeed":3.54,"windGust":4.21,"windBearing":54,"cloudCover":0.78,"uvIndex":0,"visibility":10,"ozone":305},{"time":1580490000,"summary":"Overcast","icon":"cloudy","precipIntensity":0.0003,"precipProbability":0.01,"precipType":"rain","temperature":52.17,"apparentTemperature":52.17,"dewPoint":48.12,"humidity":0.86,"pressure":1027.7,"windSpeed":3.7,"windGust":4.5,"windBearing":58,"cloudCover":0.9,"uvIndex":1,"visibility":10,"ozone":306.1},{"time":1580493600,"summary":"Overcast","icon":"cloudy","precipIntensity":0,"precipProbability":0,"temperature":52.7,"apparentTemperature":52.7,"dewPoint":48.55,"humidity":0.86,"pressure":1028.1,"windSpeed":3.87,"windGust":4.88,"windBearing":51,"cloudCover":0.94,"uvIndex":1,"visibility":10,"ozone":306.8},{"time":1580497200,"summary":"Mostly Cloudy","icon":"partly-cloudy-day","precipIntensity":0,"precipProbability":0,"temperature":54.34,"apparentTemperature":54.34,"dewPoint":49.48,"humidity":0.84,"pressure":1027.9,"windSpeed":4.09,"windGust":5.52,"windBearing":45,"cloudCover":0.83,"uvIndex":2,"visibility":10,"ozone":306.5},{"time":1580500800,"summary":"Mostly Cloudy","icon":"partly-cloudy-day","precipIntensity":0.0002,"precipProbability":0.01,"precipType":"rain","temperature":56.79,"apparentTemperature":56.79,"dewPoint":50.92,"humidity":0.81,"pressure":1027.4,"windSpeed":4.31,"windGust":6.25,"windBearing":29,"cloudCover":0.65,"uvIndex":3,"visibility":10,"ozone":305.8},{"time":1580504400,"summary":"Partly Cloudy","icon":"partly-cloudy-day","precipIntensity":0.0002,"precipProbability":0.01,"precipType":"rain","temperature":58.93,"apparentTemperature":58.93,"dewPoint":52.13,"humidity":0.78,"pressure":1027.1,"windSpeed":4.51,"windGust":6.75,"windBearing":13,"cloudCover":0.54,"uvIndex":3,"visibility":10,"ozone":305.6}]},"daily":{"summary":"No precipitation throughout the week.","icon":"clear-day","data":[{"time":1580284800,"summary":"Partly cloudy throughout the day.","icon":"partly-cloudy-day","sunriseTime":1580311080,"sunsetTime":1580347800,"moonPhase":0.16,"precipIntensity":0.0007,"precipIntensityMax":0.0022,"precipIntensityMaxTime":1580341200,"precipProbability":0.16,"precipType":"rain","temperatureHigh":58.36,"temperatureHighTime":1580342400,"temperatureLow":51.08,"temperatureLowTime":1580394120,"apparentTemperatureHigh":57.86,"apparentTemperatureHighTime":1580342400,"apparentTemperatureLow":51.57,"apparentTemperatureLowTime":1580394120,"dewPoint":46.77,"humidity":0.8,"pressure":1024.4,"windSpeed":5.89,"windGust":13.36,"windGustTime":1580367480,"windBearing":309,"cloudCover":0.43,"uvIndex":3,"uvIndexTime":1580328360,"visibility":10,"ozone":319.7,"temperatureMin":47.82,"temperatureMinTime":1580311020,"temperatureMax":58.36,"temperatureMaxTime":1580342400,"apparentTemperatureMin":46.3,"apparentTemperatureMinTime":1580309340,"apparentTemperatureMax":57.86,"apparentTemperatureMaxTime":1580342400},{"time":1580371200,"summary":"Partly cloudy throughout the day.","icon":"partly-cloudy-day","sunriseTime":1580397420,"sunsetTime":1580434320,"moonPhase":0.19,"precipIntensity":0.0003,"precipIntensityMax":0.0017,"precipIntensityMaxTime":1580381940,"precipProbability":0.15,"precipType":"rain","temperatureHigh":62.1,"temperatureHighTime":1580425800,"temperatureLow":51.6,"temperatureLowTime":1580484480,"apparentTemperatureHigh":61.6,"apparentTemperatureHighTime":1580425800,"apparentTemperatureLow":52.09,"apparentTemperatureLowTime":1580484480,"dewPoint":50.38,"humidity":0.82,"pressure":1024.7,"windSpeed":5.27,"windGust":12.5,"windGustTime":1580371200,"windBearing":303,"cloudCover":0.54,"uvIndex":3,"uvIndexTime":1580416200,"visibility":10,"ozone":308.6,"temperatureMin":51.08,"temperatureMinTime":1580394120,"temperatureMax":62.1,"temperatureMaxTime":1580425800,"apparentTemperatureMin":51.57,"apparentTemperatureMinTime":1580394120,"apparentTemperatureMax":61.6,"apparentTemperatureMaxTime":1580425800},{"time":1580457600,"summary":"Mostly cloudy throughout the day.","icon":"partly-cloudy-day","sunriseTime":1580483760,"sunsetTime":1580520780,"moonPhase":0.22,"precipIntensity":0.0004,"precipIntensityMax":0.001,"precipIntensityMaxTime":1580472900,"precipProbability":0.12,"precipType":"rain","temperatureHigh":63.14,"temperatureHighTime":1580514060,"temperatureLow":47.69,"temperatureLowTime":1580569200,"apparentTemperatureHigh":62.64,"apparentTemperatureHighTime":1580514060,"apparentTemperatureLow":48.18,"apparentTemperatureLowTime":1580569200,"dewPoint":50.31,"humidity":0.83,"pressure":1027.1,"windSpeed":4.07,"windGust":6.89,"windGustTime":1580508120,"windBearing":7,"cloudCover":0.63,"uvIndex":3,"uvIndexTime":1580502960,"visibility":10,"ozone":306.2,"temperatureMin":51.6,"temperatureMinTime":1580484480,"temperatureMax":63.14,"temperatureMaxTime":1580514060,"apparentTemperatureMin":52.09,"apparentTemperatureMinTime":1580484480,"apparentTemperatureMax":62.64,"apparentTemperatureMaxTime":1580514060},{"time":1580544000,"summary":"Overcast throughout the day.","icon":"cloudy","sunriseTime":1580570100,"sunsetTime":1580607240,"moonPhase":0.25,"precipIntensity":0.0007,"precipIntensityMax":0.0012,"precipIntensityMaxTime":1580611680,"precipProbability":0.13,"precipType":"rain","temperatureHigh":57.01,"temperatureHighTime":1580597100,"temperatureLow":47.68,"temperatureLowTime":1580656260,"apparentTemperatureHigh":56.51,"apparentTemperatureHighTime":1580597100,"apparentTemperatureLow":41.39,"apparentTemperatureLowTime":1580656020,"dewPoint":48.22,"humidity":0.88,"pressure":1026.5,"windSpeed":4.8,"windGust":18.63,"windGustTime":1580630400,"windBearing":295,"cloudCover":0.83,"uvIndex":2,"uvIndexTime":1580588040,"visibility":10,"ozone":308.1,"temperatureMin":47.69,"temperatureMinTime":1580569200,"temperatureMax":57.01,"temperatureMaxTime":1580597100,"apparentTemperatureMin":48.18,"apparentTemperatureMinTime":1580569200,"apparentTemperatureMax":56.51,"apparentTemperatureMaxTime":1580597100},{"time":1580630400,"summary":"Partly cloudy throughout the day.","icon":"partly-cloudy-day","sunriseTime":1580656440,"sunsetTime":1580693700,"moonPhase":0.29,"precipIntensity":0.0001,"precipIntensityMax":0.0003,"precipIntensityMaxTime":1580657100,"precipProbability":0.04,"precipType":"rain","temperatureHigh":53.93,"temperatureHighTime":1580677020,"temperatureLow":42.49,"temperatureLowTime":1580739480,"apparentTemperatureHigh":53.43,"apparentTemperatureHighTime":1580677020,"apparentTemperatureLow":34.69,"apparentTemperatureLowTime":1580740140,"dewPoint":36.48,"humidity":0.61,"pressure":1023.2,"windSpeed":18.29,"windGust":37.63,"windGustTime":1580655000,"windBearing":311,"cloudCover":0.43,"uvIndex":3,"uvIndexTime":1580675700,"visibility":10,"ozone":349.4,"temperatureMin":45.15,"temperatureMinTime":1580716800,"temperatureMax":53.93,"temperatureMaxTime":1580677020,"apparentTemperatureMin":38.47,"apparentTemperatureMinTime":1580711400,"apparentTemperatureMax":53.43,"apparentTemperatureMaxTime":1580677020},{"time":1580716800,"summary":"Clear throughout the day.","icon":"clear-day","sunriseTime":1580742780,"sunsetTime":1580780160,"moonPhase":0.32,"precipIntensity":0,"precipIntensityMax":0.0003,"precipIntensityMaxTime":1580784420,"precipProbability":0.01,"temperatureHigh":54.68,"temperatureHighTime":1580771340,"temperatureLow":43.3,"temperatureLowTime":1580827980,"apparentTemperatureHigh":54.18,"apparentTemperatureHighTime":1580771340,"apparentTemperatureLow":38.26,"apparentTemperatureLowTime":1580828040,"dewPoint":26.23,"humidity":0.43,"pressure":1021.4,"windSpeed":17.34,"windGust":38.36,"windGustTime":1580747340,"windBearing":346,"cloudCover":0.17,"uvIndex":3,"uvIndexTime":1580761500,"visibility":10,"ozone":342,"temperatureMin":42.49,"temperatureMinTime":1580739480,"temperatureMax":54.68,"temperatureMaxTime":1580771340,"apparentTemperatureMin":34.69,"apparentTemperatureMinTime":1580740140,"apparentTemperatureMax":54.18,"apparentTemperatureMaxTime":1580771340},{"time":1580803200,"summary":"Clear throughout the day.","icon":"clear-day","sunriseTime":1580829180,"sunsetTime":1580866620,"moonPhase":0.35,"precipIntensity":0.0001,"precipIntensityMax":0.0003,"precipIntensityMaxTime":1580880780,"precipProbability":0.02,"precipType":"rain","temperatureHigh":56.22,"temperatureHighTime":1580859180,"temperatureLow":42.54,"temperatureLowTime":1580913240,"apparentTemperatureHigh":55.72,"apparentTemperatureHighTime":1580859180,"apparentTemperatureLow":40.21,"apparentTemperatureLowTime":1580913120,"dewPoint":25.77,"humidity":0.42,"pressure":1024.6,"windSpeed":8.38,"windGust":28.03,"windGustTime":1580803200,"windBearing":16,"cloudCover":0.26,"uvIndex":3,"uvIndexTime":1580847960,"visibility":10,"ozone":357.7,"temperatureMin":43.3,"temperatureMinTime":1580827980,"temperatureMax":56.22,"temperatureMaxTime":1580859180,"apparentTemperatureMin":38.26,"apparentTemperatureMinTime":1580828040,"apparentTemperatureMax":55.72,"apparentTemperatureMaxTime":1580859180},{"time":1580889600,"summary":"Partly cloudy throughout the day.","icon":"partly-cloudy-day","sunriseTime":1580915520,"sunsetTime":1580953080,"moonPhase":0.39,"precipIntensity":0.0001,"precipIntensityMax":0.0004,"precipIntensityMaxTime":1580941800,"precipProbability":0.06,"precipType":"rain","temperatureHigh":57.57,"temperatureHighTime":1580946360,"temperatureLow":50.03,"temperatureLowTime":1580998860,"apparentTemperatureHigh":57.07,"apparentTemperatureHighTime":1580946360,"apparentTemperatureLow":50.52,"apparentTemperatureLowTime":1580998860,"dewPoint":39.74,"humidity":0.69,"pressure":1026.1,"windSpeed":4.83,"windGust":8.99,"windGustTime":1580934420,"windBearing":0,"cloudCover":0.19,"uvIndex":3,"uvIndexTime":1580933520,"visibility":10,"ozone":311.1,"temperatureMin":42.54,"temperatureMinTime":1580913240,"temperatureMax":57.57,"temperatureMaxTime":1580946360,"apparentTemperatureMin":40.21,"apparentTemperatureMinTime":1580913120,"apparentTemperatureMax":57.07,"apparentTemperatureMaxTime":1580946360}]},"alerts":[{"title":"Beach Hazards Statement","regions":["Coastal North Bay Including Point Reyes National Seashore","Northern Monterey Bay","San Francisco","San Francisco Peninsula Coast","San Fransisco Peninsula Coast","Southern Monterey Bay and Big Sur Coast"],"severity":"warning","time":1580392800,"expires":1580497200,"description":"...Increased Risk of Sneaker Waves, Rip Currents, and Large Shore Break Thursday Morning Through Friday Morning... .A long period northwest swell will begin to move into the waters early Thursday morning and impact the coast through Friday morning. The greatest risk for sneaker waves and rip currents along the coastline will occur on Thursday. Additionally, breaking wave heights of 17 to 22 feet will be possible at favored locations along the shore on Thursday. The swell will begin to decrease on Thursday night, but breaking waves heights up to 15 to 20 feet will remain possible through Friday morning. ...BEACH HAZARDS STATEMENT REMAINS IN EFFECT FROM 6 AM THURSDAY MORNING THROUGH 11 AM FRIDAY MORNING... * WHAT...Increased risk of sneaker waves, rip currents, and large shore break are expected. * WHERE...San Francisco, Coastal North Bay Including Point Reyes National Seashore, San Francisco Peninsula Coast, Northern Monterey Bay and Southern Monterey Bay and Big Sur Coast Counties. * WHEN...From Thursday morning through Friday morning. * IMPACTS...Rip currents can pull swimmers and surfers out to sea. Sneaker waves can knock unsuspecting beach goers over and into the sea.\n","uri":"https://alerts.weather.gov/cap/wwacapget.php?x=CA125F3586B310.BeachHazardsStatement.125F35A4DCF0CA.MTRCFWMTR.2f934c13b654abed524a5365e4e97e74"}],"flags":{"sources":["nwspa","cmc","gfs","hrrr","icon","isd","madis","nam","sref","darksky","nearest-precip"],"nearest-station":2.24,"units":"us"},"offset":-8}
+	
+latitude	37.8267
+longitude	-122.4233
+timezone	"America/Los_Angeles"
+
+// Actuellement
+currently	
+time	1580503586
+summary	"Partly Cloudy"
+icon	"partly-cloudy-day"
+nearestStormDistance	222  // Hauteur du Soleil ??
+nearestStormBearing	352    // Az du soleil ???
+precipIntensity	0          // Intensit des precipitations
+precipProbability	0        // Propabilité des precipitations
+temperature	59             // Temperature
+apparentTemperature	59     // Temperature Apparente
+dewPoint	51.68            // Point de rosé ??
+humidity	0.77             // Humidité
+pressure	1026.4           // Pression
+windSpeed	5.11             // Vitesse du Vent
+windGust	7.35             // Rafales
+windBearing	0              // Direction du vent
+cloudCover	0.44           // Couverture Nuageuse
+uvIndex	3                  // Index UV
+visibility	10             // Visibilité
+ozone	309.7                // Ozone
+
+// Minutes par minutes j'usqu'a 60 minutes
+minutely	
+summary	"Partly cloudy for the hour." // Partiellement Nuageux pour l'heure
+icon	"partly-cloudy-day"             // Icone
+data	
+0	// maintenant
+time	1580503560
+precipIntensity	0   // Intensit des precipitations
+precipProbability	0 // Propabilité des precipitations
+1	// Dans 1 minute
+time	1580503620
+precipIntensity	0
+precipProbability	0
+2	
+time	1580503680
+precipIntensity	0
+precipProbability	0
+3	
+time	1580503740
+precipIntensity	0
+precipProbability	0
+4	
+time	1580503800
+precipIntensity	0
+precipProbability	0
+5	
+time	1580503860
+precipIntensity	0
+precipProbability	0
+6	
+time	1580503920
+precipIntensity	0
+precipProbability	0
+7	
+time	1580503980
+precipIntensity	0
+precipProbability	0
+8	
+time	1580504040
+precipIntensity	0
+precipProbability	0
+9	
+time	1580504100
+precipIntensity	0
+precipProbability	0
+10	
+time	1580504160
+precipIntensity	0
+precipProbability	0
+11	
+time	1580504220
+precipIntensity	0
+precipProbability	0
+12	
+time	1580504280
+precipIntensity	0
+precipProbability	0
+13	
+time	1580504340
+precipIntensity	0
+precipProbability	0
+14	
+time	1580504400
+precipIntensity	0
+precipProbability	0
+15	
+time	1580504460
+precipIntensity	0
+precipProbability	0
+16	
+time	1580504520
+precipIntensity	0
+precipProbability	0
+17	
+time	1580504580
+precipIntensity	0
+precipProbability	0
+18	
+time	1580504640
+precipIntensity	0
+precipProbability	0
+19	
+time	1580504700
+precipIntensity	0
+precipProbability	0
+20	
+time	1580504760
+precipIntensity	0
+precipProbability	0
+21	
+time	1580504820
+precipIntensity	0
+precipProbability	0
+22	
+time	1580504880
+precipIntensity	0
+precipProbability	0
+23	
+time	1580504940
+precipIntensity	0
+precipProbability	0
+24	
+time	1580505000
+precipIntensity	0
+precipProbability	0
+25	
+time	1580505060
+precipIntensity	0
+precipProbability	0
+26	
+time	1580505120
+precipIntensity	0
+precipProbability	0
+27	
+time	1580505180
+precipIntensity	0
+precipProbability	0
+28	
+time	1580505240
+precipIntensity	0
+precipProbability	0
+29	
+time	1580505300
+precipIntensity	0
+precipProbability	0
+30	
+time	1580505360
+precipIntensity	0
+precipProbability	0
+31	
+time	1580505420
+precipIntensity	0
+precipProbability	0
+32	
+time	1580505480
+precipIntensity	0
+precipProbability	0
+33	
+time	1580505540
+precipIntensity	0
+precipProbability	0
+34	
+time	1580505600
+precipIntensity	0
+precipProbability	0
+35	
+time	1580505660
+precipIntensity	0
+precipProbability	0
+36	
+time	1580505720
+precipIntensity	0
+precipProbability	0
+37	
+time	1580505780
+precipIntensity	0
+precipProbability	0
+38	
+time	1580505840
+precipIntensity	0
+precipProbability	0
+39	
+time	1580505900
+precipIntensity	0
+precipProbability	0
+40	
+time	1580505960
+precipIntensity	0
+precipProbability	0
+41	
+time	1580506020
+precipIntensity	0
+precipProbability	0
+42	
+time	1580506080
+precipIntensity	0
+precipProbability	0
+43	
+time	1580506140
+precipIntensity	0
+precipProbability	0
+44	
+time	1580506200
+precipIntensity	0
+precipProbability	0
+45	
+time	1580506260
+precipIntensity	0
+precipProbability	0
+46	
+time	1580506320
+precipIntensity	0
+precipProbability	0
+47	
+time	1580506380
+precipIntensity	0
+precipProbability	0
+48	
+time	1580506440
+precipIntensity	0
+precipProbability	0
+49	
+time	1580506500
+precipIntensity	0
+precipProbability	0
+50	
+time	1580506560
+precipIntensity	0
+precipProbability	0
+51	
+time	1580506620
+precipIntensity	0
+precipProbability	0
+52	
+time	1580506680
+precipIntensity	0
+precipProbability	0
+53	
+time	1580506740
+precipIntensity	0
+precipProbability	0
+54	
+time	1580506800
+precipIntensity	0
+precipProbability	0
+55	
+time	1580506860
+precipIntensity	0
+precipProbability	0
+56	
+time	1580506920
+precipIntensity	0
+precipProbability	0
+57	
+time	1580506980
+precipIntensity	0
+precipProbability	0
+58	
+time	1580507040
+precipIntensity	0
+precipProbability	0
+59	
+time	1580507100
+precipIntensity	0
+precipProbability	0
+60	
+time	1580507160
+precipIntensity	0
+precipProbability	0
+
+
+
+// Heures par heures jusqu'a 48H
+hourly	
+summary	"Partly cloudy throughout the day."
+icon	"partly-cloudy-day"
+data	
+0	
+time	1580500800
+summary	"Partly Cloudy" // Partiellement Nuageux
+icon	"partly-cloudy-day" // Icones
+precipIntensity	0.0002 
+precipProbability	0.01
+precipType	"rain"
+temperature	57.41
+apparentTemperature	57.41
+dewPoint	51.03
+humidity	0.79
+pressure	1026.5
+windSpeed	4.71
+windGust	7.12
+windBearing	9
+cloudCover	0.44
+uvIndex	3
+visibility	10
+ozone	310
+1	
+time	1580504400
+summary	"Partly Cloudy"
+icon	"partly-cloudy-day"
+precipIntensity	0.0002
+precipProbability	0.01
+precipType	"rain"
+temperature	59.39
+apparentTemperature	59.39
+dewPoint	51.85
+humidity	0.76
+pressure	1026.4
+windSpeed	5.19
+windGust	7.41
+windBearing	358
+cloudCover	0.42
+uvIndex	3
+visibility	10
+ozone	309.7
+2	
+time	1580508000
+summary	"Clear"
+icon	"clear-day"
+precipIntensity	0.0006
+precipProbability	0.01
+precipType	"rain"
+temperature	60.77
+apparentTemperature	60.77
+dewPoint	52.57
+humidity	0.74
+pressure	1026.1
+windSpeed	5.22
+windGust	7.66
+windBearing	346
+cloudCover	0.26
+uvIndex	2
+visibility	10
+ozone	310.2
+3	
+time	1580511600
+summary	"Clear"
+icon	"clear-day"
+precipIntensity	0.0006
+precipProbability	0.01
+precipType	"rain"
+temperature	61.64
+apparentTemperature	61.64
+dewPoint	53.31
+humidity	0.74
+pressure	1026.2
+windSpeed	5.38
+windGust	7.98
+windBearing	338
+cloudCover	0.17
+uvIndex	1
+visibility	10
+ozone	311.1
+4	
+time	1580515200
+summary	"Clear"
+icon	"clear-day"
+precipIntensity	0
+precipProbability	0
+temperature	61.46
+apparentTemperature	61.46
+dewPoint	53.46
+humidity	0.75
+pressure	1026.4
+windSpeed	5.02
+windGust	7.94
+windBearing	335
+cloudCover	0.13
+uvIndex	0
+visibility	10
+ozone	311.6
+5	
+time	1580518800
+summary	"Clear"
+icon	"clear-day"
+precipIntensity	0.0011
+precipProbability	0.01
+precipType	"rain"
+temperature	60.08
+apparentTemperature	60.08
+dewPoint	53.58
+humidity	0.79
+pressure	1026.2
+windSpeed	3.95
+windGust	6.33
+windBearing	323
+cloudCover	0.13
+uvIndex	0
+visibility	10
+ozone	311
+6	
+time	1580522400
+summary	"Clear"
+icon	"clear-night"
+precipIntensity	0.0004
+precipProbability	0.01
+precipType	"rain"
+temperature	57.78
+apparentTemperature	57.78
+dewPoint	52.41
+humidity	0.82
+pressure	1026.4
+windSpeed	4.16
+windGust	5.2
+windBearing	329
+cloudCover	0.19
+uvIndex	0
+visibility	10
+ozone	310
+7	
+time	1580526000
+summary	"Partly Cloudy"
+icon	"partly-cloudy-night"
+precipIntensity	0.0016
+precipProbability	0.02
+precipType	"rain"
+temperature	56.1
+apparentTemperature	56.1
+dewPoint	51.67
+humidity	0.85
+pressure	1026.5
+windSpeed	3.77
+windGust	4.51
+windBearing	325
+cloudCover	0.41
+uvIndex	0
+visibility	10
+ozone	309.1
+8	
+time	1580529600
+summary	"Partly Cloudy"
+icon	"partly-cloudy-night"
+precipIntensity	0.002
+precipProbability	0.02
+precipType	"rain"
+temperature	55.14
+apparentTemperature	55.14
+dewPoint	50.81
+humidity	0.85
+pressure	1026.7
+windSpeed	3.43
+windGust	4.2
+windBearing	323
+cloudCover	0.48
+uvIndex	0
+visibility	10
+ozone	308.5
+9	
+time	1580533200
+summary	"Partly Cloudy"
+icon	"partly-cloudy-night"
+precipIntensity	0.0006
+precipProbability	0.01
+precipType	"rain"
+temperature	54.46
+apparentTemperature	54.46
+dewPoint	50.03
+humidity	0.85
+pressure	1027.2
+windSpeed	3.89
+windGust	4.84
+windBearing	334
+cloudCover	0.46
+uvIndex	0
+visibility	10
+ozone	308
+10	
+time	1580536800
+summary	"Clear"
+icon	"clear-night"
+precipIntensity	0.0006
+precipProbability	0.01
+precipType	"rain"
+temperature	53.86
+apparentTemperature	53.86
+dewPoint	49.45
+humidity	0.85
+pressure	1027.4
+windSpeed	3.97
+windGust	4.71
+windBearing	340
+cloudCover	0.25
+uvIndex	0
+visibility	10
+ozone	307.7
+11	
+time	1580540400
+summary	"Clear"
+icon	"clear-night"
+precipIntensity	0.0012
+precipProbability	0.02
+precipType	"rain"
+temperature	53.24
+apparentTemperature	53.24
+dewPoint	48.79
+humidity	0.85
+pressure	1027.3
+windSpeed	3.5
+windGust	4.33
+windBearing	354
+cloudCover	0.27
+uvIndex	0
+visibility	10
+ozone	307.7
+12	
+time	1580544000
+summary	"Partly Cloudy"
+icon	"partly-cloudy-night"
+precipIntensity	0.0014
+precipProbability	0.02
+precipType	"rain"
+temperature	52.64
+apparentTemperature	52.64
+dewPoint	48.03
+humidity	0.84
+pressure	1026.8
+windSpeed	2.96
+windGust	4.4
+windBearing	10
+cloudCover	0.32
+uvIndex	0
+visibility	10
+ozone	308
+13	
+time	1580547600
+summary	"Partly Cloudy"
+icon	"partly-cloudy-night"
+precipIntensity	0.0009
+precipProbability	0.02
+precipType	"rain"
+temperature	52.05
+apparentTemperature	52.05
+dewPoint	47.23
+humidity	0.84
+pressure	1026.7
+windSpeed	3.09
+windGust	5.13
+windBearing	357
+cloudCover	0.37
+uvIndex	0
+visibility	9.75
+ozone	307.9
+14	
+time	1580551200
+summary	"Partly Cloudy"
+icon	"partly-cloudy-night"
+precipIntensity	0.0002
+precipProbability	0.01
+precipType	"rain"
+temperature	51.46
+apparentTemperature	51.46
+dewPoint	46.69
+humidity	0.84
+pressure	1027
+windSpeed	3.87
+windGust	6.22
+windBearing	348
+cloudCover	0.41
+uvIndex	0
+visibility	9.607
+ozone	307.4
+15	
+time	1580554800
+summary	"Mostly Cloudy"
+icon	"partly-cloudy-night"
+precipIntensity	0.0006
+precipProbability	0.02
+precipType	"rain"
+temperature	50.44
+apparentTemperature	50.44
+dewPoint	45.7
+humidity	0.84
+pressure	1027.4
+windSpeed	3.35
+windGust	4.81
+windBearing	10
+cloudCover	0.63
+uvIndex	0
+visibility	10
+ozone	306.8
+16	
+time	1580558400
+summary	"Mostly Cloudy"
+icon	"partly-cloudy-night"
+precipIntensity	0.0009
+precipProbability	0.02
+precipType	"rain"
+temperature	49.49
+apparentTemperature	48.57
+dewPoint	45.14
+humidity	0.85
+pressure	1027.6
+windSpeed	3.62
+windGust	5.07
+windBearing	8
+cloudCover	0.68
+uvIndex	0
+visibility	9.987
+ozone	306.1
+17	
+time	1580562000
+summary	"Mostly Cloudy"
+icon	"partly-cloudy-night"
+precipIntensity	0.0011
+precipProbability	0.02
+precipType	"rain"
+temperature	48.77
+apparentTemperature	47.67
+dewPoint	44.83
+humidity	0.86
+pressure	1027.4
+windSpeed	3.71
+windGust	5.06
+windBearing	20
+cloudCover	0.71
+uvIndex	0
+visibility	10
+ozone	305.5
+18	
+time	1580565600
+summary	"Mostly Cloudy"
+icon	"partly-cloudy-night"
+precipIntensity	0.0013
+precipProbability	0.02
+precipType	"rain"
+temperature	48.43
+apparentTemperature	47.25
+dewPoint	44.7
+humidity	0.87
+pressure	1027
+windSpeed	3.75
+windGust	4.89
+windBearing	32
+cloudCover	0.73
+uvIndex	0
+visibility	10
+ozone	305
+19	
+time	1580569200
+summary	"Mostly Cloudy"
+icon	"partly-cloudy-night"
+precipIntensity	0.0014
+precipProbability	0.02
+precipType	"rain"
+temperature	48.57
+apparentTemperature	47.46
+dewPoint	44.73
+humidity	0.86
+pressure	1026.8
+windSpeed	3.7
+windGust	4.75
+windBearing	26
+cloudCover	0.74
+uvIndex	0
+visibility	10
+ozone	304.7
+20	
+time	1580572800
+summary	"Mostly Cloudy"
+icon	"partly-cloudy-day"
+precipIntensity	0.0012
+precipProbability	0.02
+precipType	"rain"
+temperature	49
+apparentTemperature	48.09
+dewPoint	44.93
+humidity	0.86
+pressure	1027.1
+windSpeed	3.53
+windGust	4.75
+windBearing	26
+cloudCover	0.73
+uvIndex	0
+visibility	10
+ozone	304.7
+21	
+time	1580576400
+summary	"Mostly Cloudy"
+icon	"partly-cloudy-day"
+precipIntensity	0.001
+precipProbability	0.01
+precipType	"rain"
+temperature	49.42
+apparentTemperature	48.75
+dewPoint	45.95
+humidity	0.88
+pressure	1027.6
+windSpeed	3.31
+windGust	4.81
+windBearing	30
+cloudCover	0.71
+uvIndex	1
+visibility	9.774
+ozone	304.9
+22	
+time	1580580000
+summary	"Mostly Cloudy"
+icon	"partly-cloudy-day"
+precipIntensity	0.0007
+precipProbability	0.01
+precipType	"rain"
+temperature	50.14
+apparentTemperature	50.14
+dewPoint	46.7
+humidity	0.88
+pressure	1027.8
+windSpeed	3.25
+windGust	4.86
+windBearing	27
+cloudCover	0.7
+uvIndex	1
+visibility	9.457
+ozone	304.9
+23	
+time	1580583600
+summary	"Mostly Cloudy"
+icon	"partly-cloudy-day"
+precipIntensity	0.0004
+precipProbability	0.01
+precipType	"rain"
+temperature	51.54
+apparentTemperature	51.54
+dewPoint	47.25
+humidity	0.85
+pressure	1027.4
+windSpeed	3.51
+windGust	4.83
+windBearing	16
+cloudCover	0.65
+uvIndex	2
+visibility	10
+ozone	304.4
+24	
+time	1580587200
+summary	"Partly Cloudy"
+icon	"partly-cloudy-day"
+precipIntensity	0
+precipProbability	0
+temperature	53.61
+apparentTemperature	53.61
+dewPoint	48.36
+humidity	0.82
+pressure	1026.9
+windSpeed	3.98
+windGust	4.86
+windBearing	356
+cloudCover	0.59
+uvIndex	3
+visibility	10
+ozone	303.7
+25	
+time	1580590800
+summary	"Partly Cloudy"
+icon	"partly-cloudy-day"
+precipIntensity	0
+precipProbability	0
+temperature	55.49
+apparentTemperature	55.49
+dewPoint	49.91
+humidity	0.81
+pressure	1026
+windSpeed	4.4
+windGust	5.04
+windBearing	339
+cloudCover	0.55
+uvIndex	3
+visibility	10
+ozone	303.7
+26	
+time	1580594400
+summary	"Partly Cloudy"
+icon	"partly-cloudy-day"
+precipIntensity	0
+precipProbability	0
+temperature	57.35
+apparentTemperature	57.35
+dewPoint	50.91
+humidity	0.79
+pressure	1025.3
+windSpeed	4.62
+windGust	5.27
+windBearing	325
+cloudCover	0.54
+uvIndex	2
+visibility	10
+ozone	304.8
+27	
+time	1580598000
+summary	"Partly Cloudy"
+icon	"partly-cloudy-day"
+precipIntensity	0
+precipProbability	0
+temperature	58.63
+apparentTemperature	58.63
+dewPoint	51.53
+humidity	0.77
+pressure	1024.5
+windSpeed	4.77
+windGust	5.74
+windBearing	302
+cloudCover	0.54
+uvIndex	1
+visibility	10
+ozone	306.6
+28	
+time	1580601600
+summary	"Partly Cloudy"
+icon	"partly-cloudy-day"
+precipIntensity	0.0002
+precipProbability	0.01
+precipType	"rain"
+temperature	58.83
+apparentTemperature	58.83
+dewPoint	51.7
+humidity	0.77
+pressure	1023.9
+windSpeed	5.14
+windGust	6.39
+windBearing	296
+cloudCover	0.55
+uvIndex	0
+visibility	10
+ozone	308.1
+29	
+time	1580605200
+summary	"Partly Cloudy"
+icon	"partly-cloudy-day"
+precipIntensity	0.0004
+precipProbability	0.01
+precipType	"rain"
+temperature	57.38
+apparentTemperature	57.38
+dewPoint	51.66
+humidity	0.81
+pressure	1023.5
+windSpeed	6.05
+windGust	7.32
+windBearing	300
+cloudCover	0.57
+uvIndex	0
+visibility	10
+ozone	309.1
+30	
+time	1580608800
+summary	"Mostly Cloudy"
+icon	"partly-cloudy-night"
+precipIntensity	0.0005
+precipProbability	0.01
+precipType	"rain"
+temperature	54.94
+apparentTemperature	54.94
+dewPoint	50.79
+humidity	0.86
+pressure	1023.3
+windSpeed	7.15
+windGust	8.36
+windBearing	273
+cloudCover	0.6
+uvIndex	0
+visibility	10
+ozone	309.8
+31	
+time	1580612400
+summary	"Mostly Cloudy"
+icon	"partly-cloudy-night"
+precipIntensity	0.0008
+precipProbability	0.01
+precipType	"rain"
+temperature	53.12
+apparentTemperature	53.12
+dewPoint	50.16
+humidity	0.9
+pressure	1023.3
+windSpeed	7.86
+windGust	9.31
+windBearing	279
+cloudCover	0.64
+uvIndex	0
+visibility	10
+ozone	310.2
+32	
+time	1580616000
+summary	"Mostly Cloudy"
+icon	"partly-cloudy-night"
+precipIntensity	0.0011
+precipProbability	0.01
+precipType	"rain"
+temperature	52.08
+apparentTemperature	52.08
+dewPoint	49.25
+humidity	0.9
+pressure	1023.4
+windSpeed	7.95
+windGust	10.06
+windBearing	285
+cloudCover	0.72
+uvIndex	0
+visibility	10
+ozone	310.3
+33	
+time	1580619600
+summary	"Mostly Cloudy"
+icon	"partly-cloudy-night"
+precipIntensity	0.0015
+precipProbability	0.02
+precipType	"rain"
+temperature	51.44
+apparentTemperature	51.44
+dewPoint	48.36
+humidity	0.89
+pressure	1023.4
+windSpeed	7.73
+windGust	10.79
+windBearing	278
+cloudCover	0.83
+uvIndex	0
+visibility	10
+ozone	310.1
+34	
+time	1580623200
+summary	"Overcast"
+icon	"cloudy"
+precipIntensity	0.0016
+precipProbability	0.02
+precipType	"rain"
+temperature	51.19
+apparentTemperature	51.19
+dewPoint	47.86
+humidity	0.88
+pressure	1023.4
+windSpeed	7.61
+windGust	11.72
+windBearing	282
+cloudCover	0.9
+uvIndex	0
+visibility	10
+ozone	310.3
+35	
+time	1580626800
+summary	"Overcast"
+icon	"cloudy"
+precipIntensity	0.0009
+precipProbability	0.01
+precipType	"rain"
+temperature	51.41
+apparentTemperature	51.41
+dewPoint	47.9
+humidity	0.88
+pressure	1023.2
+windSpeed	7.65
+windGust	12.84
+windBearing	290
+cloudCover	0.9
+uvIndex	0
+visibility	10
+ozone	311.3
+36	
+time	1580630400
+summary	"Mostly Cloudy"
+icon	"partly-cloudy-night"
+precipIntensity	0.0002
+precipProbability	0.01
+precipType	"rain"
+temperature	51.78
+apparentTemperature	51.78
+dewPoint	48.28
+humidity	0.88
+pressure	1022.9
+windSpeed	7.81
+windGust	14.15
+windBearing	286
+cloudCover	0.86
+uvIndex	0
+visibility	10
+ozone	312.8
+37	
+time	1580634000
+summary	"Mostly Cloudy"
+icon	"partly-cloudy-night"
+precipIntensity	0
+precipProbability	0
+temperature	52.43
+apparentTemperature	52.43
+dewPoint	48.71
+humidity	0.87
+pressure	1022.1
+windSpeed	8.29
+windGust	15.8
+windBearing	291
+cloudCover	0.85
+uvIndex	0
+visibility	10
+ozone	314.4
+38	
+time	1580637600
+summary	"Overcast"
+icon	"cloudy"
+precipIntensity	0
+precipProbability	0
+temperature	52.77
+apparentTemperature	52.77
+dewPoint	49
+humidity	0.87
+pressure	1021.7
+windSpeed	9.19
+windGust	18.07
+windBearing	291
+cloudCover	0.89
+uvIndex	0
+visibility	10
+ozone	315.6
+39	
+time	1580641200
+summary	"Overcast"
+icon	"cloudy"
+precipIntensity	0
+precipProbability	0
+temperature	52.88
+apparentTemperature	52.88
+dewPoint	49.08
+humidity	0.87
+pressure	1021.5
+windSpeed	10.42
+windGust	20.74
+windBearing	309
+cloudCover	0.95
+uvIndex	0
+visibility	10
+ozone	316.9
+40	
+time	1580644800
+summary	"Overcast"
+icon	"cloudy"
+precipIntensity	0.0002
+precipProbability	0.02
+precipType	"rain"
+temperature	52.9
+apparentTemperature	52.9
+dewPoint	48.24
+humidity	0.84
+pressure	1021.5
+windSpeed	11.79
+windGust	23.45
+windBearing	296
+cloudCover	0.99
+uvIndex	0
+visibility	10
+ozone	319.9
+41	
+time	1580648400
+summary	"Overcast"
+icon	"cloudy"
+precipIntensity	0.0002
+precipProbability	0.01
+precipType	"rain"
+temperature	52.24
+apparentTemperature	52.24
+dewPoint	46.9
+humidity	0.82
+pressure	1021.3
+windSpeed	13.24
+windGust	26.1
+windBearing	293
+cloudCover	0.98
+uvIndex	0
+visibility	10
+ozone	325.5
+42	
+time	1580652000
+summary	"Overcast"
+icon	"cloudy"
+precipIntensity	0
+precipProbability	0
+temperature	51.33
+apparentTemperature	51.33
+dewPoint	45.18
+humidity	0.79
+pressure	1020.9
+windSpeed	14.75
+windGust	28.48
+windBearing	308
+cloudCover	0.93
+uvIndex	0
+visibility	10
+ozone	332.8
+43	
+time	1580655600
+summary	"Overcast"
+icon	"cloudy"
+precipIntensity	0.0002
+precipProbability	0.02
+precipType	"rain"
+temperature	50.5
+apparentTemperature	50.5
+dewPoint	43.06
+humidity	0.76
+pressure	1021.1
+windSpeed	16.31
+windGust	30.43
+windBearing	303
+cloudCover	0.9
+uvIndex	0
+visibility	10
+ozone	340.1
+44	
+time	1580659200
+summary	"Overcast"
+icon	"cloudy"
+precipIntensity	0.0002
+precipProbability	0.02
+precipType	"rain"
+temperature	49.81
+apparentTemperature	43.72
+dewPoint	40.98
+humidity	0.72
+pressure	1021.3
+windSpeed	18.1
+windGust	32.24
+windBearing	302
+cloudCover	0.91
+uvIndex	0
+visibility	10
+ozone	346.9
+45	
+time	1580662800
+summary	"Overcast"
+icon	"cloudy"
+precipIntensity	0.0003
+precipProbability	0.02
+precipType	"rain"
+temperature	49.23
+apparentTemperature	42.59
+dewPoint	38.87
+humidity	0.67
+pressure	1021.6
+windSpeed	19.97
+windGust	33.91
+windBearing	308
+cloudCover	0.94
+uvIndex	1
+visibility	10
+ozone	353.8
+46	
+time	1580666400
+summary	"Overcast"
+icon	"cloudy"
+precipIntensity	0.0004
+precipProbability	0.02
+precipType	"rain"
+temperature	49.46
+apparentTemperature	42.64
+dewPoint	37.71
+humidity	0.64
+pressure	1021.7
+windSpeed	21.37
+windGust	35.06
+windBearing	309
+cloudCover	0.92
+uvIndex	1
+visibility	10
+ozone	360.4
+47	
+time	1580670000
+summary	"Mostly Cloudy"
+icon	"partly-cloudy-day"
+precipIntensity	0.0005
+precipProbability	0.02
+precipType	"rain"
+temperature	50.42
+apparentTemperature	50.42
+dewPoint	36.38
+humidity	0.58
+pressure	1021.5
+windSpeed	22
+windGust	35.55
+windBearing	312
+cloudCover	0.67
+uvIndex	2
+visibility	10
+ozone	367.4
+48	
+time	1580673600
+summary	"Partly Cloudy"
+icon	"partly-cloudy-day"
+precipIntensity	0.0004
+precipProbability	0.02
+precipType	"rain"
+temperature	52.18
+apparentTemperature	52.18
+dewPoint	34.68
+humidity	0.51
+pressure	1021
+windSpeed	22.25
+windGust	35.7
+windBearing	314
+cloudCover	0.33
+uvIndex	2
+visibility	10
+ozone	374.2
+
+
+// Jours par jours
+daily	
+summary	"No precipitation throughout the week."
+icon	"clear-day"
+data	
+0	
+time	1580457600
+summary	"Partly cloudy throughout the day."
+icon	"partly-cloudy-day"
+sunriseTime	1580483760
+sunsetTime	1580520780
+moonPhase	0.22
+precipIntensity	0.0007
+precipIntensityMax	0.0021
+precipIntensityMaxTime	1580528880
+precipProbability	0.12
+precipType	"rain"
+temperatureHigh	62.2
+temperatureHighTime	1580512860
+temperatureLow	47.93
+temperatureLowTime	1580566140
+apparentTemperatureHigh	61.7
+apparentTemperatureHighTime	1580512860
+apparentTemperatureLow	47.24
+apparentTemperatureLowTime	1580566080
+dewPoint	49.71
+humidity	0.83
+pressure	1026.3
+windSpeed	3.68
+windGust	8.09
+windGustTime	1580513760
+windBearing	2
+cloudCover	0.4
+uvIndex	3
+uvIndexTime	1580502240
+visibility	9.945
+ozone	308.9
+temperatureMin	50.25
+temperatureMinTime	1580485860
+temperatureMax	62.2
+temperatureMaxTime	1580512860
+apparentTemperatureMin	50.74
+apparentTemperatureMinTime	1580485860
+apparentTemperatureMax	61.7
+apparentTemperatureMaxTime	1580512860
+1	
+time	1580544000
+summary	"Mostly cloudy throughout the day."
+icon	"partly-cloudy-day"
+sunriseTime	1580570100
+sunsetTime	1580607240
+moonPhase	0.25
+precipIntensity	0.0007
+precipIntensityMax	0.0017
+precipIntensityMaxTime	1580622240
+precipProbability	0.15
+precipType	"rain"
+temperatureHigh	59.43
+temperatureHighTime	1580600460
+temperatureLow	49.32
+temperatureLowTime	1580659200
+apparentTemperatureHigh	58.93
+apparentTemperatureHighTime	1580600460
+apparentTemperatureLow	43.72
+apparentTemperatureLowTime	1580659200
+dewPoint	47.93
+humidity	0.85
+pressure	1025.6
+windSpeed	4.96
+windGust	14.15
+windGustTime	1580630400
+windBearing	320
+cloudCover	0.65
+uvIndex	3
+uvIndexTime	1580588880
+visibility	9.95
+ozone	307.1
+temperatureMin	47.93
+temperatureMinTime	1580566140
+temperatureMax	59.43
+temperatureMaxTime	1580600460
+apparentTemperatureMin	47.24
+apparentTemperatureMinTime	1580566080
+apparentTemperatureMax	58.93
+apparentTemperatureMaxTime	1580600460
+2	
+time	1580630400
+summary	"Partly cloudy throughout the day."
+icon	"partly-cloudy-day"
+sunriseTime	1580656440
+sunsetTime	1580693700
+moonPhase	0.29
+precipIntensity	0.0002
+precipIntensityMax	0.0005
+precipIntensityMaxTime	1580670000
+precipProbability	0.09
+precipType	"rain"
+temperatureHigh	54.6
+temperatureHighTime	1580680980
+temperatureLow	40.82
+temperatureLowTime	1580738880
+apparentTemperatureHigh	54.1
+apparentTemperatureHighTime	1580680980
+apparentTemperatureLow	33.49
+apparentTemperatureLowTime	1580738940
+dewPoint	39.3
+humidity	0.67
+pressure	1020.6
+windSpeed	17.68
+windGust	35.72
+windGustTime	1580675100
+windBearing	311
+cloudCover	0.45
+uvIndex	2
+uvIndexTime	1580676060
+visibility	10
+ozone	354
+temperatureMin	44.41
+temperatureMinTime	1580716800
+temperatureMax	54.6
+temperatureMaxTime	1580680980
+apparentTemperatureMin	37.87
+apparentTemperatureMinTime	1580716800
+apparentTemperatureMax	54.1
+apparentTemperatureMaxTime	1580680980
+3	
+time	1580716800
+summary	"Clear throughout the day."
+icon	"clear-day"
+sunriseTime	1580742780
+sunsetTime	1580780160
+moonPhase	0.32
+precipIntensity	0.0001
+precipIntensityMax	0.0003
+precipIntensityMaxTime	1580798400
+precipProbability	0.01
+precipType	"rain"
+temperatureHigh	54.95
+temperatureHighTime	1580772600
+temperatureLow	43.73
+temperatureLowTime	1580827680
+apparentTemperatureHigh	54.45
+apparentTemperatureHighTime	1580772600
+apparentTemperatureLow	38.24
+apparentTemperatureLowTime	1580827200
+dewPoint	24.57
+humidity	0.42
+pressure	1021.1
+windSpeed	16.28
+windGust	32.65
+windGustTime	1580800020
+windBearing	348
+cloudCover	0.04
+uvIndex	3
+uvIndexTime	1580761500
+visibility	10
+ozone	359.1
+temperatureMin	40.82
+temperatureMinTime	1580738880
+temperatureMax	54.95
+temperatureMaxTime	1580772600
+apparentTemperatureMin	33.49
+apparentTemperatureMinTime	1580738940
+apparentTemperatureMax	54.45
+apparentTemperatureMaxTime	1580772600
+4	
+time	1580803200
+summary	"Clear throughout the day."
+icon	"clear-day"
+sunriseTime	1580829180
+sunsetTime	1580866620
+moonPhase	0.35
+precipIntensity	0
+precipIntensityMax	0.0002
+precipIntensityMaxTime	1580828940
+precipProbability	0.01
+temperatureHigh	57.59
+temperatureHighTime	1580859420
+temperatureLow	43.43
+temperatureLowTime	1580913300
+apparentTemperatureHigh	57.09
+apparentTemperatureHighTime	1580859420
+apparentTemperatureLow	42.02
+apparentTemperatureLowTime	1580913420
+dewPoint	23.49
+humidity	0.37
+pressure	1023.4
+windSpeed	9.34
+windGust	32.5
+windGustTime	1580803200
+windBearing	7
+cloudCover	0.22
+uvIndex	3
+uvIndexTime	1580848140
+visibility	10
+ozone	357.3
+temperatureMin	43.73
+temperatureMinTime	1580827680
+temperatureMax	57.59
+temperatureMaxTime	1580859420
+apparentTemperatureMin	38.24
+apparentTemperatureMinTime	1580827200
+apparentTemperatureMax	57.09
+apparentTemperatureMaxTime	1580859420
+5	
+time	1580889600
+summary	"Clear throughout the day."
+icon	"clear-day"
+sunriseTime	1580915520
+sunsetTime	1580953080
+moonPhase	0.39
+precipIntensity	0
+precipIntensityMax	0.0003
+precipIntensityMaxTime	1580925600
+precipProbability	0.02
+temperatureHigh	57.75
+temperatureHighTime	1580942520
+temperatureLow	44.74
+temperatureLowTime	1581000480
+apparentTemperatureHigh	57.25
+apparentTemperatureHighTime	1580942520
+apparentTemperatureLow	42.97
+apparentTemperatureLowTime	1581000420
+dewPoint	35.49
+humidity	0.59
+pressure	1023.8
+windSpeed	3.87
+windGust	8.01
+windGustTime	1580939040
+windBearing	20
+cloudCover	0.2
+uvIndex	3
+uvIndexTime	1580934900
+visibility	10
+ozone	321.1
+temperatureMin	43.43
+temperatureMinTime	1580913300
+temperatureMax	57.75
+temperatureMaxTime	1580942520
+apparentTemperatureMin	42.02
+apparentTemperatureMinTime	1580913420
+apparentTemperatureMax	57.25
+apparentTemperatureMaxTime	1580942520
+6	
+time	1580976000
+summary	"Clear throughout the day."
+icon	"clear-day"
+sunriseTime	1581001860
+sunsetTime	1581039540
+moonPhase	0.42
+precipIntensity	0.0001
+precipIntensityMax	0.0003
+precipIntensityMaxTime	1580979600
+precipProbability	0.04
+precipType	"rain"
+temperatureHigh	58.92
+temperatureHighTime	1581029100
+temperatureLow	47.81
+temperatureLowTime	1581087180
+apparentTemperatureHigh	58.42
+apparentTemperatureHighTime	1581029100
+apparentTemperatureLow	46.48
+apparentTemperatureLowTime	1581087000
+dewPoint	44.68
+humidity	0.79
+pressure	1022.1
+windSpeed	4.51
+windGust	7.49
+windGustTime	1581018840
+windBearing	356
+cloudCover	0
+uvIndex	4
+uvIndexTime	1581020580
+visibility	10
+ozone	279.9
+temperatureMin	44.74
+temperatureMinTime	1581000480
+temperatureMax	58.92
+temperatureMaxTime	1581029100
+apparentTemperatureMin	42.97
+apparentTemperatureMinTime	1581000420
+apparentTemperatureMax	58.42
+apparentTemperatureMaxTime	1581029100
+7	
+time	1581062400
+summary	"Clear throughout the day."
+icon	"clear-day"
+sunriseTime	1581088200
+sunsetTime	1581126060
+moonPhase	0.46
+precipIntensity	0.0001
+precipIntensityMax	0.0005
+precipIntensityMaxTime	1581142260
+precipProbability	0.06
+precipType	"rain"
+temperatureHigh	58.4
+temperatureHighTime	1581115440
+temperatureLow	49.61
+temperatureLowTime	1581174420
+apparentTemperatureHigh	57.9
+apparentTemperatureHighTime	1581115440
+apparentTemperatureLow	50.1
+apparentTemperatureLowTime	1581174420
+dewPoint	47.71
+humidity	0.86
+pressure	1019.6
+windSpeed	5.49
+windGust	8.36
+windGustTime	1581129120
+windBearing	333
+cloudCover	0
+uvIndex	4
+uvIndexTime	1581106980
+visibility	10
+ozone	283.1
+temperatureMin	47.81
+temperatureMinTime	1581087180
+temperatureMax	58.4
+temperatureMaxTime	1581115440
+apparentTemperatureMin	46.48
+apparentTemperatureMinTime	1581087000
+apparentTemperatureMax	57.9
+apparentTemperatureMaxTime	1581115440
+
+
+alerts	
+0	
+title	"High Wind Watch"
+regions	
+0	"Coastal North Bay Including Point Reyes National Seashore"
+1	"North Bay Interior Valleys"
+2	"Northern Monterey Bay"
+3	"Northern Salinas Valley/Hollister Valley and Carmel Valley"
+4	"San Francisco"
+5	"San Francisco Bay Shoreline"
+6	"San Francisco Peninsula Coast"
+7	"San Fransisco Peninsula Coast"
+8	"Santa Clara Valley Including San Jose"
+9	"Southern Monterey Bay and Big Sur Coast"
+severity	"watch"
+time	1580644800
+expires	1580731200
+description	"...HIGH WIND WATCH IN EFFECT FROM EARLY SUNDAY MORNING THROUGH EARLY MONDAY MORNING... * WHAT...Northwest winds 20 to 30 mph with gusts from 30 to 50 mph possible. * WHERE...Portions of western California. * WHEN...From early Sunday morning through early Monday morning. * IMPACTS...Damaging winds could blow down trees and power lines. Widespread power outages are possible. Travel could be difficult, especially for high profile vehicles. * ADDITIONAL DETAILS...Strong winds are expected as a dry cold front moves through the region. Winds are expected to be out of the northwest around 20 to 30 mph with the strongest wind gusts along the immediate Pacific coastline between 40 to 50 mph. Strong wind gusts can also be expected for inland valleys between 30 to 45 mph.\n"
+uri	"https://alerts.weather.gov/cap/wwacapget.php?x=CA125F35A5101C.HighWindWatch.125F39EE6D80CA.MTRNPWMTR.d055c5a6f60ce2b8fe2a21b2060102e5"
+flags	
+sources	
+0	"nwspa"
+1	"cmc"
+2	"gfs"
+3	"hrrr"
+4	"icon"
+5	"isd"
+6	"madis"
+7	"nam"
+8	"sref"
+9	"darksky"
+10	"nearest-precip"
+nearest-station	2.24
+units	"us"
+offset	-8
