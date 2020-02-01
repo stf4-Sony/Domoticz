@@ -192,8 +192,26 @@ return {
                 if j == 48 then break end
                 j = j +1
             end
+            
+            -- Script Jour 1 a J8
             k = 1
             for k = 1,8 do
+                -- Debut Vent
+                local windSpeed         =   json.hourly.data[k].windSpeed
+                local windGust          =   json.hourly.data[k].windGust
+                local windBearing       =   json.hourly.data[k].windBearing
+                local temperature       =   json.hourly.data[k].temperature
+                local windChill         =   json.hourly.data[k].apparentTemperature
+                local direction         =   quadrants(windBearing)
+                logWrite('windSpeed : '..tostring(windSpeed)..' windGust : '..tostring(windGust)..' windBearing : '..tostring(windBearing)..' direction :'..tostring(direction)..' temperature : '..tostring(temperature)..' windChill : '..tostring(windChill),domoticz.LOG_INFO)
+
+                if (j_Vents[i]) then
+                    domoticz.devices(j_Vents[k]).updateWind(windBearing,tostring(direction),windSpeed,windGust,temperature,windChill)
+                    logWrite('mise à jour du device '..j_Vents[k],domoticz.LOG_INFO)
+                end
+                --Fin Vents
+                
+                -- Debut Phases Lunaire
                 local moonphase = json.daily.data[k].moonPhase
                 logWrite('moonPhase day ' ..k..' : '..tostring(moonphase))
                 logWrite(levelMoonPhase(moonphase))
@@ -202,6 +220,7 @@ return {
                     domoticz.devices(j_phaseLunaire[k]).switchSelector(levelMoonPhase(moonphase))
                     logWrite("update selector device")
                 end
+                -- Fin Phases Lunaire
                 if j == 8 then break end
                 j = j +1
             end
