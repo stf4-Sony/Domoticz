@@ -21,7 +21,8 @@ local h_visibilite = {}
 -- Tous les jours j0 a j7
 local j_Vents  = {}  
 local j_indexUV  = {} 
-local j_tempHumBar = {}
+local j_Humidity = {}
+local j_Pressure
 local j_visibilite = {}
 local j_phaseLunaire = {}
 
@@ -50,13 +51,15 @@ h_visibilite[2] = 117
 -- Tous les jours j0 a j7
 j_Vents[1] = 102 --Capteur Vent+Temp+Resssenti
 j_indexUV[1] = 107
-j_tempHumBar[1] = 113
+j_Humidity[1] = nil
+j_Pressure[1] = nil
 j_visibilite[1] = 118
 j_phaseLunaire[1] = 120
 
 j_Vents[2] = 103 --Capteur Vent+Temp+Resssenti
 j_indexUV[2] = 108
-j_tempHumBar[2] = 114
+j_Humidity[2] = nil
+j_Pressure[2] = nil
 j_visibilite[2] = 119
 j_phaseLunaire[2] = 121
 
@@ -180,10 +183,10 @@ return {
                 local temperature       = json.hourly.data[j].temperature
                 local humidity          = json.hourly.data[j].humidity
                 local pressure          = json.hourly.data[j].pressure
-                logWrite('Temperature : '..tostring(temperature)..' Humidite : '..tostring(humidity)..' Barometre : '..tostring(pressure)..,domoticz.LOG_INFO)
+                logWrite('Temperature : '..tostring(temperature)..' Humidite : '..tostring(humidity)..' Barometre : '..tostring(pressure),domoticz.LOG_INFO)
 
                 if (h_tempHumBar[i]) then
-                    domoticz.devices(h_tempHumBar[i]).updateTempHumBaro(temperature,humidity,,pressure,,)
+                    domoticz.devices(h_tempHumBar[i]).updateTempHumBaro(temperature,humidity,HUM_STAT,pressure,BAR_FOR)
                     logWrite('mise à jour du device '..h_tempHumBar[i],domoticz.LOG_INFO)
                 end
                 
