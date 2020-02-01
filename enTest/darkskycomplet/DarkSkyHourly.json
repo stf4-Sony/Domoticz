@@ -1,1 +1,25 @@
+// Heures par heures jusqu'a 48H
+hourly:	
+	summary	"Partly cloudy throughout the day."
+	icon	"partly-cloudy-day"
+	data	
+		0	
+			time	1580500800
+			summary	"Partly Cloudy" // Partiellement Nuageux
+			icon	"partly-cloudy-day" // Icones
+			precipIntensity	0.0002 
+			precipProbability	0.01
+			precipType	"rain"
+			temperature	57.41
+			apparentTemperature	57.41
+			dewPoint	51.03
+			humidity	0.79
+			pressure	1026.5
+			windSpeed	4.71
+			windGust	7.12
+			windBearing	9
+			cloudCover	0.44
+			uvIndex	3
+			visibility	10
+			ozone	310
 
