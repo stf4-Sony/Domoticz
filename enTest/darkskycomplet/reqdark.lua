@@ -1,7 +1,98 @@
---[[ Commentaire long sur le script
+--[[ darksky.lua for [ dzVents >= 2.4.14 (domoticz >= V4.10444)]
+lement un niveau peut être actif; commenter les autres dans la section logging
 --]]
 local scriptName        = 'Darksky forecast'
 local scriptVersion     = ' 1.00'
+
+--[[
+-- Actuellement
+local Vents  = {} 
+local indexUV  = {}
+local tempHumBar = {}
+local visibilite = {}
+--]]
+
+-- Toutes les heures 1h a 48h
+local h_Vents  = {} 
+local h_indexUV  = {} 
+local h_tempHumBar = {}
+local h_visibilite = {}
+
+-- Tous les jours j0 a j7
+local j_Vents  = {}  
+local j_indexUV  = {} 
+local j_tempHumBar = {}
+local j_visibilite = {}
+local j_phaseLunaire = {}
+
+--local proba_pluie_h     = {}
+--local prev_wind_h       = {}
+--local MoonPhaseSelect   = {}
+
+-- Association des Capteurs
+-- Actuellement
+Vents = 99 --Capteur Vent+Temp+Resssenti
+indexUV = 105
+tempHumBar = 110
+visibilite = 115
+
+-- Toutes les heures 1h a 48h
+h_Vents[1] = 100 --Capteur Vent+Temp+Resssenti
+h_indexUV[1] = 106
+h_tempHumBar[1] = 111 
+h_visibilite[1] = 116
+
+h_Vents[2] = 101 --Capteur Vent+Temp+Resssenti
+h_indexUV[2] = 109
+h_tempHumBar[2] = 112
+h_visibilite[2] = 117
+
+-- Tous les jours j0 a j7
+j_vents[1] = 102 --Capteur Vent+Temp+Resssenti
+j_indexUV[1] = 107
+j_tempHumBar[1] = 113
+j_visibilite[1] = 118
+j_phaseLunaire[1] = 120
+
+j_vents[2] = 103 --Capteur Vent+Temp+Resssenti
+j_indexUV[2] = 108
+j_tempHumBar[2] = 114
+j_visibilite[2] = 119
+j_phaseLunaire[2] = 121
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 -- local actuelle
 local summary			   ={} -- Infos generale maintenant
