@@ -63,7 +63,7 @@ j_phaseLunaire[2] = 121
 -- Recurance d'executuion du script
 return {
     active = true,
-    on      =   {   timer           =   { 'every 2 minutes' },  -- remember only 1000 requests by day, 30mn = 48 requests
+    on      =   {   timer           =   { 'every 1 minutes' },  -- remember only 1000 requests by day, 30mn = 48 requests
                     httpResponses   =   { 'DarkSky_Trigger' }    -- Trigger the handle Json part
                 },
 
@@ -156,7 +156,7 @@ return {
             local now = domoticz.time.dDate
             logWrite('now : '..now)
             
-            
+            logWrite('Recuperation des heures')
             j = 1
             for i = 1,48 do
                 logWrite('j : '..j)
@@ -175,7 +175,21 @@ return {
                         domoticz.devices(proba_pluie_h[i]).updatePercentage(json.hourly.data[j].precipProbability*100)
                 end
                 --]]
+                
+                --Debut Temp+Hu+Bar
+                local temperature       = json.hourly.data[j].temperature
+                local humidity          = json.hourly.data[j].humidity
+                local pressure          = json.hourly.data[j].pressure
+                logWrite('Temperature : '..tostring(temperature)..' Humidite : '..tostring(humidity)..' Barometre : '..tostring(pressure)..,domoticz.LOG_INFO)
 
+                if (h_tempHumBar[i]) then
+                    domoticz.devices(h_tempHumBar[i]).updateTempHumBaro(temperature,humidity,,pressure,,)
+                    logWrite('mise à jour du device '..h_tempHumBar[i],domoticz.LOG_INFO)
+                end
+                
+                -- Fin Temp+Hum+Bar
+                
+                -- Debut Vent
                 local windSpeed         =   json.hourly.data[j].windSpeed
                 local windGust          =   json.hourly.data[j].windGust
                 local windBearing       =   json.hourly.data[j].windBearing
@@ -188,24 +202,26 @@ return {
                     domoticz.devices(h_Vents[i]).updateWind(windBearing,tostring(direction),windSpeed,windGust,temperature,windChill)
                     logWrite('mise à jour du device '..h_Vents[i],domoticz.LOG_INFO)
                 end
+                -- Fin Vent
                 
                 if j == 48 then break end
                 j = j +1
             end
             
             -- Script Jour 1 a J8
+            logWrite('Recuperationdes jours')
             k = 1
             for k = 1,8 do
                 -- Debut Vent
-                local windSpeed         =   json.hourly.data[k].windSpeed
-                local windGust          =   json.hourly.data[k].windGust
-                local windBearing       =   json.hourly.data[k].windBearing
-                local temperature       =   json.hourly.data[k].temperature
-                local windChill         =   json.hourly.data[k].apparentTemperature
+                local windSpeed         =   json.daily.data[k].windSpeed
+                local windGust          =   json.daily.data[k].windGust
+                local windBearing       =   json.daily.data[k].windBearing
+                local temperature       =   json.daily.data[k].temperatureMin
+                local windChill         =   json.daily.data[k].temperatureMax
                 local direction         =   quadrants(windBearing)
                 logWrite('windSpeed : '..tostring(windSpeed)..' windGust : '..tostring(windGust)..' windBearing : '..tostring(windBearing)..' direction :'..tostring(direction)..' temperature : '..tostring(temperature)..' windChill : '..tostring(windChill),domoticz.LOG_INFO)
 
-                if (j_Vents[i]) then
+                if (j_Vents[k]) then
                     domoticz.devices(j_Vents[k]).updateWind(windBearing,tostring(direction),windSpeed,windGust,temperature,windChill)
                     logWrite('mise à jour du device '..j_Vents[k],domoticz.LOG_INFO)
                 end
