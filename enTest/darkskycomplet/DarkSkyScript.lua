@@ -29,19 +29,19 @@ local j_phaseLunaire = {}
 
 -- Association des Capteurs
 -- Actuellement
-Vents = nil
+Vents = nil --Capteur Vent+Temp+Resssenti
 indexUV = nil
 tempHumBar = nil
 visibilite = nil
 
 -- Toutes les heures 1h a 48h
-h_Vents[1] = nil
+h_Vents[1] = nil --Capteur Vent+Temp+Resssenti
 h_indexUV[1] = nil
 h_tempHumBar[1] = nil 
 h_visibilite[1] = nil
 
 -- Tous les jours j0 a j7
-j_vents[1] = nil
+j_vents[1] = nil --Capteur Vent+Temp+Resssenti
 j_indexUV[1] = nil
 j_tempHumBar[1] = nil
 j_visibilite[1] = nil
