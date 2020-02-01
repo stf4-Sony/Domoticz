@@ -196,7 +196,7 @@ return {
             for k = 1,8 do
                 local moonphase = json.daily.data[k].moonPhase
                 logWrite('moonPhase day ' ..k..' : '..tostring(moonphase))
-                logWrite(levelMoonhase(moonphase))
+                logWrite(levelMoonPhase(moonphase))
 
                 if(j_phaseLunaire[k]) then
                     domoticz.devices(j_phaseLunaire[k]).switchSelector(levelMoonPhase(moonphase))
