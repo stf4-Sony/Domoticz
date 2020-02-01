@@ -184,9 +184,9 @@ return {
                 local direction         =   quadrants(windBearing)
                 logWrite('windSpeed : '..tostring(windSpeed)..' windGust : '..tostring(windGust)..' windBearing : '..tostring(windBearing)..' direction :'..tostring(direction)..' temperature : '..tostring(temperature)..' windChill : '..tostring(windChill),domoticz.LOG_INFO)
 
-                if (prev_wind_h[i]) then
-                    domoticz.devices(prev_wind_h[i]).updateWind(windBearing,tostring(direction),windSpeed,windGust,temperature,windChill)
-                    logWrite('mise à jour du device '..prev_wind_h[i],domoticz.LOG_INFO)
+                if (h_Vents[i]) then
+                    domoticz.devices(h_Vents[i]).updateWind(windBearing,tostring(direction),windSpeed,windGust,temperature,windChill)
+                    logWrite('mise à jour du device '..h_Vents[i],domoticz.LOG_INFO)
                 end
                 
                 if j == 48 then break end
@@ -198,8 +198,8 @@ return {
                 logWrite('moonPhase day ' ..k..' : '..tostring(moonphase))
                 logWrite(levelMoonhase(moonphase))
 
-                if(MoonPhaseSelect[k]) then
-                    domoticz.devices(MoonPhaseSelect[k]).switchSelector(levelMoonhase(moonphase))
+                if(j_phaseLunaire[k]) then
+                    domoticz.devices(j_phaseLunaire[k]).switchSelector(levelMoonPhase(moonphase))
                     logWrite("update selector device")
                 end
                 if j == 8 then break end
