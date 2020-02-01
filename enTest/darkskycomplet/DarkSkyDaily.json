@@ -1,1 +1,45 @@
-
+// Jours par jours jusqu'a J7
+daily:	
+	summary	"No precipitation throughout the week." // Infos pour la semaine 
+	icon	"clear-day"
+	data	
+		0	
+			time	1580457600
+			summary	"Partly cloudy throughout the day."
+			icon	"partly-cloudy-day"
+			sunriseTime	1580483760  				// Levé du soleil
+			sunsetTime	1580520780  				// Couché du soleil
+			moonPhase	0.22						// Phase de la Lune
+			precipIntensity	0.0007					// Intensité des precipitations
+			precipIntensityMax	0.0021				// Intensité Max des precipitations
+			precipIntensityMaxTime	1580528880		// Heure Intensité Max des precipitations
+			precipProbability	0.12				// Propabilité des precipitations
+			precipType	"rain"						// Type des precipitations
+			temperatureHigh	62.2					// Temperature Max
+			temperatureHighTime	1580512860			// Heure Temperature Max
+			temperatureLow	47.93					// Temperature Min
+			temperatureLowTime	1580566140			// Heure Temperature Min
+			apparentTemperatureHigh	61.7			// Temperature Max Ressentie ??
+			apparentTemperatureHighTime	1580512860	// Heure // Temperature Max Ressentie ??
+			apparentTemperatureLow	47.24			// Temperature Min Ressenti ??
+			apparentTemperatureLowTime	1580566080	// Heure // Temperature Max Ressentie ??
+			dewPoint	49.71						// Point de rosée
+			humidity	0.83						// Humidité 
+			pressure	1026.3						// Pression
+			windSpeed	3.68						// Vitesse du Vent
+			windGust	8.09						// Rafales de vent
+			windGustTime	1580513760				// Heure de Rafales
+			windBearing	2							// Direction du vent
+			cloudCover	0.4							// Couverture Nuageuse
+			uvIndex	3								// Index UV
+			uvIndexTime	1580502240					// Heure Index UV
+			visibility	9.945						// Visibilité
+			ozone	308.9							// Qualité Ozone
+			temperatureMin	50.25					// Temperature Min
+			temperatureMinTime	1580485860			// Heure Temperature Min
+			temperatureMax	62.2					// Temperature Max
+			temperatureMaxTime	1580512860			// Heure Temperature Max
+			apparentTemperatureMin	50.74			// Temperature Min Ressentie ??
+			apparentTemperatureMinTime	1580485860	// Temperature Min Ressentie ??
+			apparentTemperatureMax	61.7			// Temperature Max Ressentie ??
+			apparentTemperatureMaxTime	1580512860	// Temperature Max Ressentie ??
