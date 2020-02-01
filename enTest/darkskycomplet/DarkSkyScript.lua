@@ -48,13 +48,13 @@ h_tempHumBar[2] = 112
 h_visibilite[2] = 117
 
 -- Tous les jours j0 a j7
-j_vents[1] = 102 --Capteur Vent+Temp+Resssenti
+j_Vents[1] = 102 --Capteur Vent+Temp+Resssenti
 j_indexUV[1] = 107
 j_tempHumBar[1] = 113
 j_visibilite[1] = 118
 j_phaseLunaire[1] = 120
 
-j_vents[2] = 103 --Capteur Vent+Temp+Resssenti
+j_Vents[2] = 103 --Capteur Vent+Temp+Resssenti
 j_indexUV[2] = 108
 j_tempHumBar[2] = 114
 j_visibilite[2] = 119
