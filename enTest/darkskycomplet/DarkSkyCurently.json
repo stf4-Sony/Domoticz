@@ -1,0 +1,21 @@
+// Actuellement
+currently:
+	time:	1580503586 //depuis le 01/01/1970 ???
+	summary:	"Partly Cloudy"
+	icon:	"partly-cloudy-day"
+	nearestStormDistance:	222  	// Hauteur du Soleil ??
+	nearestStormBearing:	352    		// Az du soleil ???
+	precipIntensity:	0          		// Intensit des precipitations
+	precipProbability:	0      	  	// Propabilité des precipitations
+	temperature:	59             		// Temperature
+	apparentTemperature:	59     		// Temperature Apparente
+	dewPoint:	51.68            	// Point de rosé ??
+	humidity:	0.77             	// Humidité
+	pressure:	1026.4           	// Pression
+	windSpeed:	5.11             	// Vitesse du Vent
+	windGust:	7.35             	// Rafales
+	windBearing:	0              		// Direction du vent
+	cloudCover:	0.44           		// Couverture Nuageuse
+	uvIndex:	3                  		// Index UV
+	visibility:	10             		// Visibilité
+	ozone:	309.7                	// Ozone
