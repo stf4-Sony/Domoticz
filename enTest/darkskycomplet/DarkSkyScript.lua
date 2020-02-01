@@ -2,22 +2,24 @@
 lement un niveau peut être actif; commenter les autres dans la section logging
 --]]
 local scriptName        = 'Darksky forecast'
-local scriptVersion     = ' 1.21'
+local scriptVersion     = ' 1.00'
 
+--[[
 -- Actuellement
 local Vents  = {} 
 local indexUV  = {}
 local tempHumBar = {}
 local visibilite = {}
+--]]
 
 -- Toutes les heures 1h a 48h
-local h_Vents 
+local h_Vents  = {} 
 local h_indexUV  = {} 
 local h_tempHumBar = {}
 local h_visibilite = {}
 
 -- Tous les jours j0 a j7
-local j_Vents 
+local j_Vents  = {}  
 local j_indexUV  = {} 
 local j_tempHumBar = {}
 local j_visibilite = {}
@@ -29,40 +31,54 @@ local j_phaseLunaire = {}
 
 -- Association des Capteurs
 -- Actuellement
-Vents = nil --Capteur Vent+Temp+Resssenti
-indexUV = nil
-tempHumBar = nil
-visibilite = nil
+Vents = 99 --Capteur Vent+Temp+Resssenti
+indexUV = 105
+tempHumBar = 110
+visibilite = 115
 
 -- Toutes les heures 1h a 48h
-h_Vents[1] = nil --Capteur Vent+Temp+Resssenti
-h_indexUV[1] = nil
-h_tempHumBar[1] = nil 
-h_visibilite[1] = nil
+h_Vents[1] = 100 --Capteur Vent+Temp+Resssenti
+h_indexUV[1] = 106
+h_tempHumBar[1] = 111 
+h_visibilite[1] = 116
+
+h_Vents[2] = 101 --Capteur Vent+Temp+Resssenti
+h_indexUV[2] = 109
+h_tempHumBar[2] = 112
+h_visibilite[2] = 117
 
 -- Tous les jours j0 a j7
-j_vents[1] = nil --Capteur Vent+Temp+Resssenti
-j_indexUV[1] = nil
-j_tempHumBar[1] = nil
-j_visibilite[1] = nil
-j_phaseLunaire[1] = nil
+j_vents[1] = 102 --Capteur Vent+Temp+Resssenti
+j_indexUV[1] = 107
+j_tempHumBar[1] = 113
+j_visibilite[1] = 118
+j_phaseLunaire[1] = 120
 
+j_vents[2] = 103 --Capteur Vent+Temp+Resssenti
+j_indexUV[2] = 108
+j_tempHumBar[2] = 114
+j_visibilite[2] = 119
+j_phaseLunaire[2] = 121
 
+-- Recurance d'executuion du script
 return {
     active = true,
-    on      =   {   timer           =   { 'every 30 minutes' },  -- remember only 1000 requests by day, 30mn = 48 requests
+    on      =   {   timer           =   { 'every 2 minutes' },  -- remember only 1000 requests by day, 30mn = 48 requests
                     httpResponses   =   { 'DarkSky_Trigger' }    -- Trigger the handle Json part
                 },
 
+ -- Fichier Log
   logging =   {  level    =   domoticz.LOG_DEBUG,                                             -- Seulement un niveau peut être actif; commenter les autres
                 -- level    =   domoticz.LOG_INFO,                                            -- Only one level can be active; comment others
                 -- level    =   domoticz.LOG_ERROR,
                 -- level    =   domoticz.LOG_MODULE_EXEC_INFO,
                 marker = scriptName..' v'..scriptVersion
                 },
-
+-- Creer une copie du fichier JSON
    data    =   {   Forecast     = {initial = {} },             -- Keep a copy of last json just in case
        },
+    
+
     execute = function(domoticz, item)
 
         local function logWrite(str,level)             -- Support function for shorthand debug log statements
@@ -79,7 +95,7 @@ return {
                     return quadrants[index]
                 end
         end
-        local function levelMoonhase(moonphase)
+        local function levelMoonPhase(moonphase)
             local level = 10 -- level correspondant à Nouvelle lune
             if(moonphase > 0.05 and moonphase < 0.245) then
                 level = 20 -- level correspondant à Premier croissant
@@ -98,13 +114,15 @@ return {
             end
             return level--moonPhase, 
         end
+        
+        -- Reglages API et position
         local DarkSkyAPIkey = domoticz.variables('DarkSkyKeyAPI').value
         --local DarkSkyAPIkey = "1a2bf34bf56c78901f2345f6d7890f12" --fake API number
         local geolocalisation = domoticz.settings.location.latitude..','..domoticz.settings.location.longitude
         --local geolocalisation = "45.87,1.30" -- latitude,longitude
         logWrite('geolocalisation : '..geolocalisation,domoticz.LOG_INFO)
 
-
+-- appel de l'URL
         local Forecast_url  = "https://api.darksky.net/forecast/"  -- url
         local extraData = "?units=si&exclude=flags"--currently,minutely,daily,alerts,
 
@@ -116,24 +134,29 @@ return {
 
         end
         if (item.isHTTPResponse and item.ok) then
-            -- we know it is json but dzVents cannot detect this
-            -- convert to Lua
+            -- Fichier en JSON
+            -- Conversion en table LUA
             local json = domoticz.utils.fromJSON(item.data)
             -- json is now a Lua table
+           
             if #item.data > 0 then
                 domoticz.data.Forecast    = domoticz.utils.fromJSON(item.data)
                 rt = domoticz.utils.fromJSON(item.data)
             else
                 domoticz.log("Problem with response from DarkSky (no data) using data from earlier run",domoticz.LOG_ERROR)
                 rt  = domoticz.data.Forecast                        -- json empty. Get last valid from domoticz.data
+                
                 if #rt < 1 then                                         -- No valid data in domoticz.data either
                     domoticz.log("No previous data. are DarkSkyAPIkey and geolocalisation ok?",domoticz.LOG_ERROR)
                     return false
                 end
             end
+            
             logWrite('heure systeme')
             local now = domoticz.time.dDate
             logWrite('now : '..now)
+            
+            
             j = 1
             for i = 1,48 do
                 logWrite('j : '..j)
@@ -145,10 +168,13 @@ return {
 
                 end
                 logWrite('date :'.. os.date('%Y-%m-%d %H:%M:%S', json.hourly.data[j].time),domoticz.LOG_INFO)
+                
+                --[[                
                 logWrite('precipProbability :' ..json.hourly.data[j].precipProbability,domoticz.LOG_INFO)
                 if (proba_pluie_h[i]) then
                         domoticz.devices(proba_pluie_h[i]).updatePercentage(json.hourly.data[j].precipProbability*100)
                 end
+                --]]
 
                 local windSpeed         =   json.hourly.data[j].windSpeed
                 local windGust          =   json.hourly.data[j].windGust
