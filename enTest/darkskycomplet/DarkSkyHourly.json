@@ -5,21 +5,21 @@ hourly:
 	data	
 		0	
 			time	1580500800
-			summary	"Partly Cloudy" // Partiellement Nuageux
+			summary	"Partly Cloudy" // Partiellement Nuageux --Text Sensor
 			icon	"partly-cloudy-day" // Icones
-			precipIntensity	0.0002 
-			precipProbability	0.01
+			precipIntensity	0.0002 -- Pourcentage ??
+			precipProbability	0.01 -- pourcentage ??
 			precipType	"rain"
-			temperature	57.41
-			apparentTemperature	57.41
+			temperature	57.41  	--Vent --temperature	-- temperature/humidite	-- temperature/humidite/Barometre
+			apparentTemperature	57.41	--Vent
 			dewPoint	51.03
-			humidity	0.79
-			pressure	1026.5
-			windSpeed	4.71
-			windGust	7.12
-			windBearing	9
+			humidity	0.79 	-- humidite	-- temperature/humidite	-- temperature/humidite/Barometre
+			pressure	1026.5	--pression -- barometre	-- temperature/humidite/Barometre
+			windSpeed	4.71	--Vent
+			windGust	7.12	--Vent
+			windBearing	9	--Vent
 			cloudCover	0.44
-			uvIndex	3
-			visibility	10
-			ozone	310
+			uvIndex	3		-- UV
+			visibility	10	-- Distqnce
+			ozone	310		-- Qualite/custom
 
