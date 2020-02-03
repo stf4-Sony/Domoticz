@@ -1,0 +1,2 @@
+relance BLE
+sudo /etc/init.d/bluetooth restart
