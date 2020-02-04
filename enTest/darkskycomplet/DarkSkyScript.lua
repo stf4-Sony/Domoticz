@@ -105,13 +105,6 @@ j_Pressure[7] = nil
 j_visibilite[7] = nil
 j_phaseLunaire[7] = 129
 
-j_Vents[8] = nil --Capteur Vent+Temp+Resssenti
-j_indexUV[8] = nil
-j_Humidity[8] = nil
-j_Pressure[8] = nil
-j_visibilite[8] = nil
-j_phaseLunaire[8] = 130
-
 -- Recurance d'executuion du script
 return {
     active = true,
