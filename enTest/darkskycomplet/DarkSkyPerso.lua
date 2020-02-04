@@ -159,9 +159,8 @@ return {
         
         -- Reglages API et position
         local DarkSkyAPIkey = domoticz.variables('DarkSkyKeyAPI').value
-        --local DarkSkyAPIkey = "1a2bf34bf56c78901f2345f6d7890f12" --fake API number
         local geolocalisation = domoticz.settings.location.latitude..','..domoticz.settings.location.longitude
-        --local geolocalisation = "45.87,1.30" -- latitude,longitude
+
         logWrite('geolocalisation : '..geolocalisation,domoticz.LOG_INFO)
 
 -- appel de l'URL
