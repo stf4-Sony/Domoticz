@@ -17,7 +17,7 @@ local scriptVersion     = ' 1.02'
 return  {   
         active = true,
         on =    {  
-                       devices         = {63,67,68,69,70,71,72,73}, -- change to your device(s) separated by a comma like {2479,2480} 
+                       devices         = {120,121,124,125,126,127,128,129,130}, -- change to your device(s) separated by a comma like {2479,2480} 
                     },
 
   logging =   {  level    =   domoticz.LOG_DEBUG,                                             -- Seulement un niveau peut être actif; commenter les autres
@@ -33,14 +33,14 @@ return  {
             dz.log(tostring(str),level or dz.LOG_DEBUG)
         end
 		local icons =     { 
-                            [10] = 110,-- level correspondant à Nouvelle lune MoonPhases1NM
-                            [20] = 111,-- level correspondant à Premier croissant MoonPhases2WC
-                            [30] = 112,-- level correspondant à Premier quartier MoonPhases3FQ
-                            [40] = 113,-- level correspondant à Gibbeuse croissanteMoonPhases4WG
-                            [50] = 114,-- level correspondant à Pleine lune MoonPhases5FM
-                            [60] = 115,-- level correspondant à Gibbeuse décroissante MoonPhases6WG
-                            [70] = 116,-- level correspondant à Dernier quartier MoonPhases7LQ
-                            [80] = 117,-- level correspondant à Dernier croissant MoonPhases8WC
+                            [10] = 108,-- level correspondant à Nouvelle lune MoonPhases1NM
+                            [20] = 109,-- level correspondant à Premier croissant MoonPhases2WC
+                            [30] = 110,-- level correspondant à Premier quartier MoonPhases3FQ
+                            [40] = 111,-- level correspondant à Gibbeuse croissanteMoonPhases4WG
+                            [50] = 112,-- level correspondant à Pleine lune MoonPhases5FM
+                            [60] = 113,-- level correspondant à Gibbeuse décroissante MoonPhases6WG
+                            [70] = 114,-- level correspondant à Dernier quartier MoonPhases7LQ
+                            [80] = 11c,-- level correspondant à Dernier croissant MoonPhases8WC
 				}
 		
         logWrite('lastLevel'.. tostring(item.lastLevel))
