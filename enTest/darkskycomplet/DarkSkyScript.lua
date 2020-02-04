@@ -26,9 +26,6 @@ local j_Pressure = {}
 local j_visibilite = {}
 local j_phaseLunaire = {}
 
---local proba_pluie_h     = {}
---local prev_wind_h       = {}
---local MoonPhaseSelect   = {}
 
 -- Association des Capteurs
 -- Actuellement
