@@ -22,7 +22,7 @@ local h_visibilite = {}
 local j_Vents  = {}  
 local j_indexUV  = {} 
 local j_Humidity = {}
-local j_Pressure
+local j_Pressure = {}
 local j_visibilite = {}
 local j_phaseLunaire = {}
 
@@ -62,6 +62,55 @@ j_Humidity[2] = nil
 j_Pressure[2] = nil
 j_visibilite[2] = 119
 j_phaseLunaire[2] = 121
+
+j_Vents[2] = nil --Capteur Vent+Temp+Resssenti
+j_indexUV[2] = nil
+j_Humidity[2] = nil
+j_Pressure[2] = nil
+j_visibilite[2] = nil
+j_phaseLunaire[2] = 124
+
+j_Vents[3] = nil --Capteur Vent+Temp+Resssenti
+j_indexUV[3] = nil
+j_Humidity[3] = nil
+j_Pressure[3] = nil
+j_visibilite[3] = nil
+j_phaseLunaire[3] = 125
+
+j_Vents[4] = nil --Capteur Vent+Temp+Resssenti
+j_indexUV[4] = nil
+j_Humidity[4] = nil
+j_Pressure[4] = nil
+j_visibilite[4] = nil
+j_phaseLunaire[4] = 126
+
+j_Vents[5] = nil --Capteur Vent+Temp+Resssenti
+j_indexUV[5] = nil
+j_Humidity[5] = nil
+j_Pressure[5] = nil
+j_visibilite[5] = nil
+j_phaseLunaire[5] = 127
+
+j_Vents[6] = nil --Capteur Vent+Temp+Resssenti
+j_indexUV[6] = nil
+j_Humidity[6] = nil
+j_Pressure[6] = nil
+j_visibilite[6] = nil
+j_phaseLunaire[6] = 128
+
+j_Vents[7] = nil --Capteur Vent+Temp+Resssenti
+j_indexUV[7] = nil
+j_Humidity[7] = nil
+j_Pressure[7] = nil
+j_visibilite[7] = nil
+j_phaseLunaire[7] = 129
+
+j_Vents[8] = nil --Capteur Vent+Temp+Resssenti
+j_indexUV[8] = nil
+j_Humidity[8] = nil
+j_Pressure[8] = nil
+j_visibilite[8] = nil
+j_phaseLunaire[8] = 130
 
 -- Recurance d'executuion du script
 return {
@@ -179,6 +228,7 @@ return {
                 end
                 --]]
                 
+                --[[
                 --Debut Temp+Hu+Bar
                 local temperature       = json.hourly.data[j].temperature
                 local humidity          = json.hourly.data[j].humidity
@@ -191,6 +241,7 @@ return {
                 end
                 
                 -- Fin Temp+Hum+Bar
+                --]]
                 
                 -- Debut Vent
                 local windSpeed         =   json.hourly.data[j].windSpeed
